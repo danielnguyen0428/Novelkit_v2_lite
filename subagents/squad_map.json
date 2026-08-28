@@ -1,0 +1,74 @@
+{
+  "description": "Squad selection map for NovelKit subagents on Hermes. A novel's PROJECT_DNA.md declares `sub_agents_squad` (and optional `sub_agents_squad_secondary` when hybrid). The Orchestrator resolves the squad directory under subagents/, then loads each role's SOUL.md as the system prompt for the corresponding Hermes subagent (Requirements 3.2, 3.4). Genre aliases below are preserved verbatim from the legacy dispatcher's SQUAD_BY_GENRE so an unspecified squad can be inferred from the primary genre.",
+  "selection": {
+    "primary": "Read `sub_agents_squad` from PROJECT_DNA.md; if absent, infer from primary `genre` via genre_to_squad. Value must be one of valid_squad_families (allowlist).",
+    "secondary": "When hybrid, read `sub_agents_squad_secondary` (or infer from `genre_secondary`); primary squad still owns dispatch.",
+    "role_lookup": "Within the resolved squad directory, scan <role>/SOUL.md and match by Role; the Orchestrator (Lãng Khách) lives at subagents/orchestrator/SOUL.md."
+  },
+  "valid_squad_families": [
+    "sub_agents",
+    "sub_agents_do_thi",
+    "sub_agents_ngon_tinh",
+    "sub_agents_xuyen_khong",
+    "sub_agents_khoa_huyen",
+    "sub_agents_he_thong"
+  ],
+  "genre_to_squad": {
+    "xianxia": "sub_agents",
+    "tien hiep": "sub_agents",
+    "tu chan": "sub_agents",
+    "urban": "sub_agents_do_thi",
+    "do thi": "sub_agents_do_thi",
+    "romance": "sub_agents_ngon_tinh",
+    "ngon tinh": "sub_agents_ngon_tinh",
+    "time travel": "sub_agents_xuyen_khong",
+    "xuyen khong": "sub_agents_xuyen_khong",
+    "transmigration": "sub_agents_xuyen_khong",
+    "sci fi": "sub_agents_khoa_huyen",
+    "sci-fi": "sub_agents_khoa_huyen",
+    "science fiction": "sub_agents_khoa_huyen",
+    "khoa huyen": "sub_agents_khoa_huyen",
+    "meta genre": "sub_agents_he_thong",
+    "he thong": "sub_agents_he_thong",
+    "system": "sub_agents_he_thong"
+  },
+  "squads": {
+    "sub_agents": {
+      "genre": "Xianxia / Tiên Hiệp",
+      "dir": "subagents/sub_agents",
+      "roles": ["chan_nhan", "dong_tu", "huyet_thu", "mong_yem", "thien_co_tu"]
+    },
+    "sub_agents_do_thi": {
+      "genre": "Urban / Đô Thị",
+      "dir": "subagents/sub_agents_do_thi",
+      "roles": ["bo_cuc", "but_gia", "kien_truc_su", "nhan_sinh", "tham_phan"]
+    },
+    "sub_agents_ngon_tinh": {
+      "genre": "Romance / Ngôn Tình",
+      "dir": "subagents/sub_agents_ngon_tinh",
+      "roles": ["cam_sat", "hong_nhan", "minh_kinh", "nguyet_lao", "tinh_kiep"]
+    },
+    "sub_agents_xuyen_khong": {
+      "genre": "Time Travel / Xuyên Không",
+      "dir": "subagents/sub_agents_xuyen_khong",
+      "roles": ["ban_do", "luan_hoi", "menh_chu", "su_quan", "thien_dao"]
+    },
+    "sub_agents_khoa_huyen": {
+      "genre": "Sci-fi / Khoa Huyễn",
+      "dir": "subagents/sub_agents_khoa_huyen",
+      "roles": ["ban_the", "ky_di", "luong_tu", "ma_tran", "oracle"]
+    },
+    "sub_agents_he_thong": {
+      "genre": "Meta Genre / Hệ Thống",
+      "dir": "subagents/sub_agents_he_thong",
+      "roles": ["chu_than", "giam_sat", "giao_dien", "ky_chu", "nhiem_vu"]
+    }
+  },
+  "orchestrator": {
+    "id": "Lãng Khách",
+    "dir": "subagents/orchestrator",
+    "soul": "subagents/orchestrator/SOUL.md",
+    "note": "Hub-and-spoke coordinator; does not write prose. Specialists never talk directly to each other (CONTRACTS hub-and-spoke)."
+  },
+  "authority_note": "SOUL.md provides role specialization but MUST NOT override shared canon under skills/novelkit-canon/canon/system/* (Requirement 3.3)."
+}

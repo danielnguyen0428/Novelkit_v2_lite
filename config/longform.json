@@ -1,0 +1,27 @@
+{
+  "COMPASS_MODE_MIN_CHAPTERS": 60,
+  "MIN_ARC_LEN": 8,
+  "DEFAULT_ARC_LEN": 12,
+  "K_PER_DIM": 2,
+  "STYLE_STATS_WINDOW": 10,
+  "REPEAT_GUARD_WINDOW": 3,
+  "REPEAT_MAX": 1,
+  "REPEAT_MIN_SENTENCE_LEN": 40,
+  "RECENT_CAST_LIMIT": 12,
+  "MAX_STOP_BLOCKS": 3,
+  "flags": {
+    "compass": true,
+    "recall": true,
+    "minor_cast": true,
+    "style_stats": true,
+    "reminder": true,
+    "steer": true,
+    "diag": true,
+    "graph": true,
+    "graph_llm_enrich": true,
+    "anti_slop": true,
+    "style_edits": true,
+    "style_global": true
+  },
+  "_note_graph_llm_enrich": "Requires LLM enrich adapter mount; no-op without it"
+}

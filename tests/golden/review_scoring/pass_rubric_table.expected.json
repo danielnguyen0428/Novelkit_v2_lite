@@ -1,0 +1,7 @@
+{
+  "description": "Full 7-criteria rubric table sums to 90 → PASS verdict, done outcome.",
+  "score": 90.0,
+  "verdict": "pass",
+  "outcome": "done",
+  "criteria_total": 90.0
+}

@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "_description": "Vietnamese natural-language alias map for canonical genre slugs. This is a complementary layer to shared/genre-config.json — it adds richer Vietnamese phrases authors actually type in PROJECT_DNA.md so composite-genre parsing can resolve them. Keys are canonical slugs as defined in shared/genre-config.json (e.g. 'xianxia', 'time_travel', 'rules-horror'). Values are arrays of additional aliases. Aliases are matched case-insensitively after slugification (whitespace/diacritics stripped). Do NOT redeclare slugs already present in shared/genre-config.json — those continue to resolve via the existing layer.",
+  "aliases": {
+    "xianxia": [
+      "tu tiên",
+      "tu tien",
+      "huyền huyễn",
+      "huyen huyen",
+      "huyền ảo",
+      "huyen ao",
+      "đạo lộ tu tiên",
+      "dao lo tu tien",
+      "tiên hiệp giả tưởng",
+      "tien hiep gia tuong"
+    ],
+    "urban": [
+      "thành phố",
+      "thanh pho",
+      "đô thị hiện đại",
+      "do thi hien dai",
+      "đô thị giả tưởng",
+      "do thi gia tuong",
+      "city life",
+      "modern city"
+    ],
+    "romance": [
+      "lãng mạn",
+      "lang man",
+      "tình yêu",
+      "tinh yeu",
+      "yêu đương",
+      "yeu duong",
+      "ngôn tình hiện đại",
+      "ngon tinh hien dai",
+      "tình cảm lãng mạn",
+      "tinh cam lang man"
+    ],
+    "time_travel": [
+      "xuyên việt",
+      "xuyen viet",
+      "xuyên thư",
+      "xuyen thu",
+      "xuyên qua",
+      "xuyen qua",
+      "lịch sử giả tưởng",
+      "lich su gia tuong",
+      "transmigration novel"
+    ],
+    "sci_fi": [
+      "khoa học viễn tưởng",
+      "khoa hoc vien tuong",
+      "viễn tưởng",
+      "vien tuong",
+      "tinh tế khoa học",
+      "tinh te khoa hoc",
+      "tương lai khoa học",
+      "tuong lai khoa hoc",
+      "future fiction"
+    ],
+    "meta_genre": [
+      "system flow",
+      "system novel",
+      "hệ thống văn",
+      "he thong van",
+      "kim thủ chỉ",
+      "kim thu chi",
+      "vạn năng hệ thống",
+      "van nang he thong"
+    ],
+    "rules-horror": [
+      "quy tắc kinh dị",
+      "quy tac kinh di",
+      "quy tắc quái dị",
+      "quy tac quai di",
+      "rule based horror",
+      "regulation horror"
+    ],
+    "cthulhu": [
+      "kinh dị vũ trụ",
+      "kinh di vu tru",
+      "khắc tô lỗ thần thoại",
+      "khac to lo than thoai",
+      "lovecraftian",
+      "thần thoại đen tối",
+      "than thoai den toi"
+    ],
+    "war-espionage": [
+      "chiến tranh gián điệp",
+      "chien tranh gian diep",
+      "chống nhật điệp chiến",
+      "chong nhat diep chien",
+      "kháng chiến văn",
+      "khang chien van",
+      "spy war"
+    ],
+    "apocalypse": [
+      "tận thế",
+      "tan the",
+      "mạt thế sinh tồn",
+      "mat the sinh ton",
+      "mạt nhật",
+      "mat nhat",
+      "post-apocalypse",
+      "ngày tận thế",
+      "ngay tan the"
+    ],
+    "many-children": [
+      "đông con nhiều phúc",
+      "dong con nhieu phuc",
+      "nhiều con nhiều phúc",
+      "nhieu con nhieu phuc",
+      "đa tử văn",
+      "da tu van"
+    ],
+    "substitute": [
+      "thế thân văn",
+      "the than van",
+      "người thay thế",
+      "nguoi thay the",
+      "stand-in romance"
+    ],
+    "short-form": [
+      "đoản thiên",
+      "doan thien",
+      "truyện ngắn",
+      "truyen ngan",
+      "tri hồ đoản thiên",
+      "tri ho doan thien"
+    ],
+    "dark-theme": [
+      "hắc ám đề tài",
+      "hac am de tai",
+      "truyện đen tối",
+      "truyen den toi",
+      "đề tài tăm tối",
+      "de tai tam toi",
+      "dark fiction"
+    ],
+    "esports": [
+      "thể thao điện tử",
+      "the thao dien tu",
+      "điện cạnh văn",
+      "dien canh van",
+      "game thủ chuyên nghiệp",
+      "game thu chuyen nghiep",
+      "pro gamer"
+    ],
+    "streaming": [
+      "trực tiếp văn",
+      "truc tiep van",
+      "phát sóng trực tiếp",
+      "phat song truc tiep",
+      "streamer văn",
+      "streamer van",
+      "live stream novel"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Score 58 below 70 and explicit HARD-FAIL → hard_fail.",
+  "score": 58.0,
+  "verdict": "hard_fail",
+  "outcome": "hard_fail",
+  "criteria_total": null
+}

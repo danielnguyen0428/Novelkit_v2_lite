@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "description": "Hermes provider-resolution config. Replaces NovelKit's legacy provider stack (llm_config.py + gemini_key_pool.py + gemini_pool_status.py + google_genai_compat.py) and the CONTRACTS.md \u00a74 Provider Failover Contract (finding D6). Actual provider resolution, credential pools and alias handling are delegated to Hermes runtime_provider; this file only declares the creative-lane policy + ordered failover preference. NovelKit ships no provider HTTP clients of its own.",
+  "runtime_provider": "hermes",
+  "_wiring_note": "This declarative failover chain (primary + fallbacks + LLM_* env_overrides) is ONLY consumed when a Hermes runtime_provider is mounted. The in-repo prose path (integrations/autonovel/llm_loop.py -> provider/llm_client.py) reads provider/settings.py, which uses the NOVELKIT_LLM_BASE_URL / NOVELKIT_LLM_MODEL / NOVELKIT_LLM_API_KEY namespace and a single endpoint (no failover). Do not expect LLM_PROVIDER/LLM_FALLBACKS to affect in-repo generation.",
+  "llm": {
+    "primary": {
+      "provider": "gemini",
+      "model": "gemini-3.1-pro-preview",
+      "temperature": 0.1
+    },
+    "fallbacks": [
+      { "provider": "claude", "model": "claude-sonnet-4" },
+      { "provider": "openai", "model": "gpt-5" }
+    ],
+    "lock_primary": false,
+    "disable_fallbacks": false
+  },
+  "embedding": {
+    "provider": "ollama",
+    "model": "nomic-embed-text",
+    "dimensions": 768
+  },
+  "creative_lane": {
+    "style_audit_before_switch": true,
+    "note": "When changing provider/model for the creative lane, review the latest Style Coherence Audit before a long run so a model swap does not introduce prose drift (CONTRACTS \u00a74). The drift report does not override review scores."
+  },
+  "env_overrides": {
+    "provider": "LLM_PROVIDER",
+    "model": "LLM_MODEL",
+    "base_url": "LLM_BASE_URL",
+    "fallbacks": "LLM_FALLBACKS",
+    "lock_primary": "LLM_LOCK_PRIMARY",
+    "disable_fallbacks": "LLM_DISABLE_FALLBACKS"
+  }
+}

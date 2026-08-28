@@ -1,0 +1,8 @@
+# Local-only web surface dependencies.
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+requests>=2.31
+httpx>=0.27
+cryptography>=42
+networkx>=3,<4

@@ -1,0 +1,2 @@
+# Genre-specific lexicon
+# One term per line

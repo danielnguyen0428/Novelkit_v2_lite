@@ -1,0 +1,36 @@
+# Local data & secrets
+.data/
+.secrets/
+.env
+!.env.example
+
+# User novel workspaces (runtime)
+storage/
+workspaces/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.hypothesis/
+
+# Frontend (built in CI / npm run build)
+node_modules/
+webapp/frontend/node_modules/
+webapp/frontend/dist/
+webapp/frontend/*.tsbuildinfo
+webapp/frontend/.tmp/
+marketing/dist/
+.vercel/
+
+# SEO cache (local audits)
+.seo-cache/
+.learnings/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/

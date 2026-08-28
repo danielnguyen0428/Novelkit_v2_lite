@@ -1,0 +1,86 @@
+{
+  "vocabulary": {
+    "light_adverb_verb": {
+      "pattern": "(?:kh\u1ebd|nh\u1eb9|l\u1eb7ng|h\u01a1i|ch\u1ea7m\\s+ch\u1eadm)\\s+\\S+",
+      "window_chars": 500,
+      "max_occurrences_per_window": 2,
+      "severity": "high",
+      "fix_hint": "Thay c\u1ee5m \"kh\u1ebd/nh\u1eb9/l\u1eb7ng/h\u01a1i + \u0111\u1ed9ng t\u1eeb\" b\u1eb1ng h\u00e0nh \u0111\u1ed9ng c\u1ee5 th\u1ec3, c\u00f3 c\u1ea3m gi\u00e1c v\u1eadt l\u00fd r\u00f5 r\u00e0ng."
+    },
+    "eye_expression_template": {
+      "pattern": "(?:\u00e1nh\\s+m\u1eaft|tia\\s+nh\u00ecn|tia\\s+m\u1eaft|\u00e1nh\\s+nh\u00ecn|\u0111\u00f4i\\s+m\u1eaft)\\s+(?:tho\u00e1ng|v\u1ee5t|ch\u1ee3t|kh\u1ebd|h\u01a1i|t\u1ed1i\\s+l\u1ea1i|l\u00f3e\\s+l\u00ean|s\u00e2u\\s+th\u1eb3m|ph\u1ee9c\\s+t\u1ea1p)",
+      "max_occurrences": 2,
+      "severity": "medium",
+      "fix_hint": "B\u1ecf c\u00e1c m\u00f4-t\u00edp \u00e1nh m\u1eaft chung chung, thay b\u1eb1ng h\u00e0nh \u0111\u1ed9ng ho\u1eb7c chi ti\u1ebft tr\u1ef1c quan."
+    },
+    "smile_not_reaching_eyes": {
+      "pattern": "kh\u00f4ng\\s+ch\u1ea1m\\s+(?:\u0111\u1ebfn|t\u1edbi)\\s+(?:m\u1eaft|\u0111\u00f4i\\s+m\u1eaft|kh\u00f3e\\s+m\u1eaft)",
+      "max_occurrences": 0,
+      "severity": "high",
+      "fix_hint": "\"N\u1ee5 c\u01b0\u1eddi kh\u00f4ng ch\u1ea1m \u0111\u1ebfn m\u1eaft\" l\u00e0 c\u1ee5m d\u1ecbch s\u00e1o (a smile that didn't reach his eyes); t\u1ea3 bi\u1ec3u c\u1ea3m b\u1eb1ng chi ti\u1ebft c\u01a1 th\u1ec3 c\u1ee5 th\u1ec3 thay v\u00ec m\u00f4-t\u00edp d\u1ecbch."
+    }
+  },
+  "syntax": {
+    "four_stage_closure": {
+      "pattern": "v\u00ec\\s+[^.!?\\n]{0,80}?\\s+n\u00ean\\s+[^.!?\\n]{0,80}?\\s+k\u1ebft\\s+qu\u1ea3\\s+[^.!?\\n]{0,80}?\\s+t\u1eeb\\s+\u0111\u00f3\\s+",
+      "max_occurrences": 0,
+      "severity": "high",
+      "fix_hint": "B\u1ecf c\u1ea5u tr\u00fac suy lu\u1eadn 4-b\u01b0\u1edbc \"v\u00ec A n\u00ean B k\u1ebft qu\u1ea3 C t\u1eeb \u0111\u00f3 D\"; t\u00e1ch c\u00e2u, gi\u1eef m\u1ed9t m\u1ed1i quan h\u1ec7 nh\u00e2n qu\u1ea3 m\u1ed7i l\u01b0\u1ee3t."
+    },
+    "parallel_three_clause": {
+      "pattern": "(?:v\u1eeba\\s+\\S+\\s+v\u1eeba\\s+\\S+\\s+v\u1eeba\\s+\\S+)|(?:kh\u00f4ng\\s+nh\u1eefng\\s+[^.!?\\n]{0,40}?\\s+m\u00e0\\s+c\u00f2n\\s+[^.!?\\n]{0,40}?\\s+h\u01a1n\\s+n\u1eefa)",
+      "max_occurrences": 1,
+      "severity": "medium",
+      "fix_hint": "Tr\u00e1nh c\u1ea5u tr\u00fac song song 3 v\u1ebf l\u1eb7p \u0111i l\u1eb7p l\u1ea1i; ph\u00e1 nh\u1ecbp b\u1eb1ng c\u00e2u ng\u1eafn ho\u1eb7c \u0111o\u1ea1n m\u00f4 t\u1ea3 r\u1eddi."
+    }
+  },
+  "narrative": {
+    "dramatic_irony_hint": {
+      "pattern": "(?:\u0111\u00e2u\\s+ng\u1edd|n\u00e0o\\s+ng\u1edd|\u0111i\u1ec1u\\s+\\S+\\s+kh\u00f4ng\\s+bi\u1ebft)",
+      "max_occurrences": 0,
+      "severity": "medium",
+      "fix_hint": "Tr\u00e1nh m\u00e1ch n\u01b0\u1edbc tr\u01b0\u1edbc cho \u0111\u1ed9c gi\u1ea3 b\u1eb1ng \"\u0111\u00e2u ng\u1edd / n\u00e0o ng\u1edd / \u0111i\u1ec1u X kh\u00f4ng bi\u1ebft\"; \u0111\u1ec3 b\u1ea5t ng\u1edd t\u1ef1 b\u1ecdc l\u1ed9 qua h\u00e0nh \u0111\u1ed9ng."
+    },
+    "uniform_pacing_marker": {
+      "pattern": "(?:ti\u1ebfp\\s+theo|sau\\s+\u0111\u00f3|r\u1ed3i\\s+th\u00ec|k\u1ebf\\s+\u0111\u00f3|sau\\s+khi\\s+\u0111\u00f3)",
+      "window_chars": 1000,
+      "max_occurrences_per_window": 4,
+      "severity": "medium",
+      "fix_hint": "Nh\u1ecbp k\u1ec3 \u0111ang \u0111\u1ec1u \u0111\u1ec1u nh\u01b0 b\u00e1o c\u00e1o; chen c\u1ea3nh d\u1eebng, \u0111\u1ed1i tho\u1ea1i ho\u1eb7c c\u1ea3m gi\u00e1c v\u1eadt l\u00fd \u0111\u1ec3 \u0111\u1ed5i tempo."
+    }
+  },
+  "emotion": {
+    "felt_very_label": {
+      "pattern": "c\u1ea3m\\s+th\u1ea5y\\s+r\u1ea5t\\s+\\S+",
+      "max_occurrences": 2,
+      "severity": "high",
+      "fix_hint": "Thay \"c\u1ea3m th\u1ea5y r\u1ea5t X\" b\u1eb1ng bi\u1ec3u hi\u1ec7n c\u01a1 th\u1ec3 ho\u1eb7c h\u00e0nh \u0111\u1ed9ng (show, don't tell)."
+    },
+    "heart_label": {
+      "pattern": "(?:trong\\s+l\u00f2ng|trong\\s+t\u00e2m|trong\\s+\u0111\u1ea7u)\\s+(?:c\u1ea3m\\s+th\u1ea5y|d\u00e2ng\\s+l\u00ean|tr\u00e0o\\s+l\u00ean)\\s+\\S+",
+      "max_occurrences": 2,
+      "severity": "medium",
+      "fix_hint": "Tr\u00e1nh d\u00e1n nh\u00e3n c\u1ea3m x\u00fac qua \"trong l\u00f2ng/t\u00e2m d\u00e2ng l\u00ean X\"; m\u00f4 t\u1ea3 ph\u1ea3n \u1ee9ng c\u01a1 th\u1ec3, \u00e2m thanh, ho\u1eb7c h\u00ecnh \u1ea3nh thay v\u00ec t\u00ean c\u1ea3m x\u00fac."
+    }
+  },
+  "dialogue": {
+    "post_dialogue_explanation": {
+      "pattern": "(?:anh|c\u00f4|h\u1eafn|n\u00e0ng|y|g\u00e3|n\u00f3|c\u1eadu|ch\u1ecb|\u00f4ng|b\u00e0)\\s+n\u00f3i\\s+v\u1eady\\s+v\u00ec",
+      "max_occurrences": 0,
+      "severity": "high",
+      "fix_hint": "Kh\u00f4ng gi\u1ea3i th\u00edch \"... n\u00f3i v\u1eady v\u00ec ...\" sau \u0111\u1ed1i tho\u1ea1i; \u0111\u1ec3 \u0111\u1ed9c gi\u1ea3 t\u1ef1 luy\u00ean nguy\u00ean nh\u00e2n qua ng\u1eef c\u1ea3nh."
+    },
+    "info_dump_long_dialogue": {
+      "pattern": "\u201c[^\u201d\u2019\u201c\"\\n]{220,}\u201d|\"[^\"\\n]{220,}\"",
+      "max_occurrences": 1,
+      "severity": "high",
+      "fix_hint": "C\u00e2u tho\u1ea1i d\u00e0i tr\u00ean 220 k\u00fd t\u1ef1 ki\u1ec3u \u0111\u1ed5 th\u00f4ng tin; chia th\u00e0nh nhi\u1ec1u l\u01b0\u1ee3t tho\u1ea1i, xen ph\u1ea3n \u1ee9ng v\u00e0 h\u00e0nh \u0111\u1ed9ng."
+    },
+    "self_explaining_motive": {
+      "pattern": "(?:\u00fd\\s+(?:c\u1ee7a\\s+)?(?:t\u00f4i|t\u1edb|ta|m\u00ecnh|h\u1eafn|c\u00f4|n\u00e0ng)\\s+l\u00e0|nguy\u00ean\\s+nh\u00e2n\\s+l\u00e0\\s+v\u00ec)",
+      "max_occurrences": 1,
+      "severity": "medium",
+      "fix_hint": "Tr\u00e1nh nh\u00e2n v\u1eadt t\u1ef1 ph\u00e1t bi\u1ec3u \u0111\u1ed9ng c\u01a1; \u0111\u1ec3 h\u00e0nh \u0111\u1ed9ng v\u00e0 m\u00e2u thu\u1eabn b\u1ed9c l\u1ed9."
+    }
+  }
+}

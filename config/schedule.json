@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "description": "Declarative Hermes cron schedule. Replaces NovelKit's legacy scheduler + React UI (Resolved Decision #2). Each job names a registered novelkit_* tool the Orchestrator delegates to on its trigger. No imperative scheduler code ships with NovelKit; Hermes cron owns execution.",
+  "jobs": [
+    {
+      "name": "style_audit",
+      "description": "Style Coherence Audit every 10 chapters vs the baseline chapters, to catch model/prose drift (Requirements 6.5, 11.4).",
+      "trigger": {
+        "type": "chapter_cadence",
+        "every_chapters": 10,
+        "min_chapter": 4
+      },
+      "tool": "novelkit_style_coherence",
+      "args": {
+        "baseline_chapters": [1, 2, 3],
+        "write": true
+      }
+    },
+    {
+      "name": "rolling_seed",
+      "description": "Rolling-window auto-seed of the next chapter batch after a successful sync (size=5, min_remaining=3) (Requirement 10.3).",
+      "trigger": {
+        "type": "on_sync_success"
+      },
+      "tool": "novelkit_pipeline",
+      "args": {
+        "action": "rolling_seed"
+      }
+    },
+    {
+      "name": "arc_boundary_maintenance",
+      "description": "Compass mode: after a successful sync, check arc/volume boundary and surface the next expansion/summary to schedule (Req 1, 2, 3).",
+      "trigger": {
+        "type": "on_sync_success"
+      },
+      "tool": "novelkit_compass",
+      "args": {
+        "action": "plan_expansion"
+      }
+    },
+    {
+      "name": "creative_health_diag",
+      "description": "Creative-health diagnostics every 20 chapters (foreshadow/compass/summary/character drift) — report-only (Req 10).",
+      "trigger": {
+        "type": "chapter_cadence",
+        "every_chapters": 20,
+        "min_chapter": 20
+      },
+      "tool": "novelkit_diagnostics",
+      "args": {
+        "action": "diagnose"
+      }
+    }
+  ]
+}

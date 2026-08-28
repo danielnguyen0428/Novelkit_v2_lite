@@ -1,0 +1,20 @@
+{
+  "genre": "urban",
+  "description": "Urban genre guard — blocks cultivation/fantasy diction in a modern setting (ported from genre_language_guard.URBAN_BANNED_TERMS).",
+  "banned_terms": [
+    {"term": "tu luyện", "replacement": "rèn luyện / tập trung", "reason": "Cultivation term in urban setting"},
+    {"term": "linh khí", "replacement": "năng lượng / sinh lực", "reason": "Fantasy energy in urban"},
+    {"term": "đan điền", "replacement": "lòng bụng / trung tâm", "reason": "Cultivation anatomy in urban"},
+    {"term": "kinh mạch", "replacement": "mạch máu / thần kinh", "reason": "Cultivation anatomy in urban"},
+    {"term": "cảnh giới", "replacement": "cấp độ / trình độ", "reason": "Cultivation realm in urban"},
+    {"term": "đột phá", "replacement": "bước ngoặt / tiến bộ vượt bậc", "reason": "Cultivation breakthrough in urban"},
+    {"term": "pháp khí", "replacement": "vũ khí / dụng cụ", "reason": "Magical weapon in urban"},
+    {"term": "linh thú", "replacement": "thú cưng / động vật", "reason": "Spirit beast in urban"},
+    {"term": "phi kiếm", "replacement": "lao tới / phóng nhanh", "reason": "Sword flight in urban"},
+    {"term": "nguyên thần", "replacement": "ý thức / tinh thần", "reason": "Primordial spirit in urban"},
+    {"term": "chân nguyên", "replacement": "nội lực / sức mạnh", "reason": "True essence in urban"},
+    {"term": "tiên nhân", "replacement": "người tài giỏi / bậc thầy", "reason": "Immortal in urban"},
+    {"term": "ma tu", "replacement": "kẻ xấu / tên tội phạm", "reason": "Demon cultivator in urban"}
+  ],
+  "whitelist": []
+}

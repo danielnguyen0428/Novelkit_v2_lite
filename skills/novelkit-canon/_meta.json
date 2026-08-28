@@ -1,0 +1,22 @@
+{
+  "slug": "novelkit-canon",
+  "version": "1.0.0",
+  "displayName": "NovelKit Canon",
+  "description": "Creative brain of NovelKit packaged as a Hermes skill bundle: 17 genre canon packs (system/*) + StoryDepth cross-genre field execution, creative templates, and standard creative docs (STYLE_GUIDE/CONTRACTS/API/IDENTITY/RUNBOOK). Loaded per running genre via the context-engine.",
+  "kind": "skill-bundle",
+  "singleSelect": false,
+  "loadStrategy": "retrieval-first",
+  "contents": {
+    "canon": "canon/system/<genre-pack>/* — 17 genre packs incl. StoryDepth",
+    "templates": "templates/* — PROJECT_DNA, character, worldbuilding, plot_threads, timeline, outline, review, ...",
+    "docs": "docs/* — STYLE_GUIDE, CONTRACTS, API, IDENTITY, RUNBOOK"
+  },
+  "genrePacks": [
+    "Apocalypse", "Cthulhu", "Dark Theme", "Many Children", "Meta Genre",
+    "Romance", "Rules Horror", "Sci-fi", "Short Form", "StoryDepth",
+    "Streaming", "Substitute", "Time Travel", "Urban", "War Espionage",
+    "Xianxia", "eSports"
+  ],
+  "authority": "shared-canon-wins",
+  "notes": "Shared canon under canon/system/* overrides persona SOUL.md (Requirement 3.3). Canon files are the source of truth; index/runtime state is derivative and must never override canon (CONTRACTS §1)."
+}

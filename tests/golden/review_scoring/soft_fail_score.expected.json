@@ -1,0 +1,7 @@
+{
+  "description": "Score 78 in the 70-84 band with explicit SOFT-FAIL → soft_fail.",
+  "score": 78.0,
+  "verdict": "soft_fail",
+  "outcome": "soft_fail",
+  "criteria_total": null
+}

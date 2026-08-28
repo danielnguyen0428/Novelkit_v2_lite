@@ -1,0 +1,27 @@
+{
+  "novel": "",
+  "current_phase": null,
+  "current_chapter": null,
+  "current_arc": null,
+  "status": "idle",
+  "last_updated": null,
+  "chapter_history": [],
+  "active_agents": [],
+  "circuit_breaker": {
+    "hard_fail_count": 0,
+    "soft_fail_count": 0,
+    "total_attempts": 0,
+    "max_hard_fail": 2,
+    "max_soft_fail": 3,
+    "max_total": 5
+  },
+  "conflict_log": [],
+  "stats": {
+    "total_chapters_written": 0,
+    "total_chapters_passed": 0,
+    "average_score": null,
+    "total_retries": 0,
+    "escalations": 0,
+    "style_vault_entries": 0
+  }
+}

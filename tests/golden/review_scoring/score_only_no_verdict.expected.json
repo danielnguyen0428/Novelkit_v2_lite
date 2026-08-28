@@ -1,0 +1,7 @@
+{
+  "description": "No explicit verdict; score 88 ≥ 85 derives a done outcome.",
+  "score": 88.0,
+  "verdict": null,
+  "outcome": "done",
+  "criteria_total": null
+}

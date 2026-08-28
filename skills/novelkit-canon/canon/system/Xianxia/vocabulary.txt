@@ -1,0 +1,26 @@
+# Genre-specific lexicon
+# One term per line
+# Xianxia signature cultivation vocabulary — legitimate in-world terms that
+# other genres (urban, sci-fi, romance) treat as out-of-genre. Used by the
+# unified language guard as the Xianxia whitelist, including for hybrid works
+# (e.g. urban + xianxia "đô thị tu chân") where these terms must be allowed.
+tu luyện
+tu vi
+linh khí
+đan điền
+kinh mạch
+cảnh giới
+đột phá
+pháp khí
+pháp bảo
+linh thú
+phi kiếm
+nguyên thần
+chân nguyên
+tiên nhân
+ma tu
+kiếm pháp
+tông môn
+trận pháp
+linh đan
+phi thăng

@@ -1,0 +1,15 @@
+{
+  "genre": "scifi",
+  "description": "Sci-fi genre guard — blocks medieval/cultivation diction in a tech setting (ported from genre_language_guard.SCIFI_BANNED_TERMS).",
+  "banned_terms": [
+    {"term": "tu luyện", "replacement": "nghiên cứu / nâng cấp", "reason": "Cultivation in sci-fi"},
+    {"term": "linh khí", "replacement": "năng lượng / bức xạ", "reason": "Spirit energy in sci-fi"},
+    {"term": "pháp bảo", "replacement": "thiết bị / công nghệ", "reason": "Magic treasure in sci-fi"},
+    {"term": "kiếm pháp", "replacement": "kỹ thuật chiến đấu / combat protocol", "reason": "Sword art in sci-fi"},
+    {"term": "tông môn", "replacement": "tổ chức / corporation / guild", "reason": "Sect in sci-fi"},
+    {"term": "trận pháp", "replacement": "hệ thống phòng thủ / energy field", "reason": "Formation in sci-fi"},
+    {"term": "linh đan", "replacement": "thuốc / nano-serum / stimulant", "reason": "Spirit pill in sci-fi"},
+    {"term": "phi thăng", "replacement": "tiến hóa / ascend / evolve", "reason": "Ascension in sci-fi"}
+  ],
+  "whitelist": []
+}

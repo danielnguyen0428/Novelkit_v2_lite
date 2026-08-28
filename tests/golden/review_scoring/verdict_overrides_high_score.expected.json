@@ -1,0 +1,7 @@
+{
+  "description": "Explicit HARD-FAIL verdict beats a 92/100 score (P2 override).",
+  "score": 92.0,
+  "verdict": "hard_fail",
+  "outcome": "hard_fail",
+  "criteria_total": null
+}

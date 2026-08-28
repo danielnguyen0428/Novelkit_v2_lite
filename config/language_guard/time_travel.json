@@ -1,0 +1,15 @@
+{
+  "genre": "time_travel",
+  "description": "Time Travel genre guard — blocks anachronistic modern slang/tech in historical periods (ported from genre_language_guard.TIMETRAVEL_BANNED_TERMS).",
+  "banned_terms": [
+    {"term": "selfie", "replacement": "tự họa / ảnh tự chụp", "reason": "Modern slang in historical"},
+    {"term": "livestream", "replacement": "trình diễn / biểu diễn trực tiếp", "reason": "Modern slang in historical"},
+    {"term": "viral", "replacement": "lan truyền / đồn khắp", "reason": "Modern slang in historical"},
+    {"term": "trending", "replacement": "thịnh hành / rầm rộ", "reason": "Modern slang in historical"},
+    {"term": "app", "replacement": "ứng dụng / phương tiện", "reason": "Modern tech in historical"},
+    {"term": "online", "replacement": "trên mạng / liên kết", "reason": "Modern tech in historical"},
+    {"term": "hack", "replacement": "phá giải / xâm nhập", "reason": "Modern tech in historical"},
+    {"term": "reboot", "replacement": "khởi động lại / làm mới", "reason": "Modern tech in historical"}
+  ],
+  "whitelist": []
+}

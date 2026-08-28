@@ -1,0 +1,2719 @@
+{
+  "frozen_at": "2026-06-29T16:47:13.395329+00:00",
+  "source_root": "/Users/meow/Novelkitv2/_novelkit_source",
+  "must_keep_count": 339,
+  "must_keep": [
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.characters/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.characters/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.characters/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.characters/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.characters/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.characters/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.characters/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.characters/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.master_outline/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.master_outline/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.master_outline/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.master_outline/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.master_outline/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.master_outline/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.master_outline/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.master_outline/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.plot_threads/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.plot_threads/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.plot_threads/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.plot_threads/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.plot_threads/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.plot_threads/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.plot_threads/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.plot_threads/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.timeline/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.timeline/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.timeline/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.timeline/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.timeline/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.timeline/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.timeline/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.timeline/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.world/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.world/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.world/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.world/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.world/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.world/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/bootstrap.world/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/bootstrap.world/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.outline/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.outline/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.outline/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.outline/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.outline/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.outline/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.outline/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.outline/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.review/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.review/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.review/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.review/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.sync/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.sync/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.sync/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.sync/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.sync/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.sync/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.sync/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.sync/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.write/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.write/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.write/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.write/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.write/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.write/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0001.write/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0001.write/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.outline/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.outline/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.outline/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.outline/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.outline/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.outline/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.outline/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.outline/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.review/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.review/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.review/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.review/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.sync/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.sync/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.sync/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.sync/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.sync/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.sync/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.sync/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.sync/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.write/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.write/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.write/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.write/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.write/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.write/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0002.write/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0002.write/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.outline/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.outline/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.outline/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.outline/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.outline/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.outline/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.outline/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.outline/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.review/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.review/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.review/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.review/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.sync/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.sync/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.sync/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.sync/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.sync/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.sync/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.sync/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.sync/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.write/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.write/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.write/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.write/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.write/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.write/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0003.write/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0003.write/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.outline/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.outline/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.outline/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.outline/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.outline/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.outline/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.outline/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.outline/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.review/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.review/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.review/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.review/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.sync/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.sync/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.sync/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.sync/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.sync/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.sync/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.sync/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.sync/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.write/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.write/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.write/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.write/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.write/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.write/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0004.write/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0004.write/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.outline/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.outline/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.outline/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.outline/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.outline/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.outline/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.outline/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.outline/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.review/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.review/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.review/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.review/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.sync/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.sync/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.sync/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.sync/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.sync/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.sync/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.sync/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.sync/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.write/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.write/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.write/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.write/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.write/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.write/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/ta_de_van_tam/chapter.0005.write/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/ta_de_van_tam/chapter.0005.write/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.characters/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.characters/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.characters/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.characters/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.characters/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.characters/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.characters/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.characters/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.master_outline/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.master_outline/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.master_outline/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.master_outline/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.master_outline/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.master_outline/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.master_outline/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.master_outline/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.plot_threads/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.plot_threads/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.plot_threads/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.plot_threads/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.plot_threads/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.plot_threads/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.plot_threads/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.plot_threads/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.timeline/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.timeline/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.timeline/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.timeline/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.timeline/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.timeline/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.timeline/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.timeline/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.world/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.world/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.world/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.world/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.world/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.world/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/bootstrap.world/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/bootstrap.world/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.outline/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.outline/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.outline/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.outline/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.outline/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.outline/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.outline/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.outline/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.review/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.review/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.review/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.review/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.sync/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.sync/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.sync/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.sync/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.sync/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.sync/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.sync/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.sync/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.write/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.write/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.write/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.write/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.write/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.write/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0001.write/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0001.write/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0002.outline/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0002.outline/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0002.outline/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0002.outline/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0002.outline/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0002.outline/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0002.outline/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0002.outline/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0002.review/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0002.review/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0002.review/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0002.review/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0002.write/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0002.write/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0002.write/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0002.write/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0002.write/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0002.write/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/tan_dang_van_dao/chapter.0002.write/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/tan_dang_van_dao/chapter.0002.write/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/truong_sinh_do/bootstrap.characters/creative_input_bundle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/truong_sinh_do/bootstrap.characters/creative_input_bundle.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/truong_sinh_do/bootstrap.characters/creative_input_bundle.meta.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/truong_sinh_do/bootstrap.characters/creative_input_bundle.meta.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/truong_sinh_do/bootstrap.characters/task_runner_prompt.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/truong_sinh_do/bootstrap.characters/task_runner_prompt.md",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": ".creative_refs/truong_sinh_do/bootstrap.characters/task_runner_result.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/creative_refs/truong_sinh_do/bootstrap.characters/task_runner_result.json",
+      "must_keep": true,
+      "note": "Creative reference bundle."
+    },
+    {
+      "path": "API.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/docs/API.md",
+      "must_keep": true,
+      "note": "Standard creative document."
+    },
+    {
+      "path": "CONTRACTS.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/docs/CONTRACTS.md",
+      "must_keep": true,
+      "note": "Standard creative document."
+    },
+    {
+      "path": "IDENTITY.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/docs/IDENTITY.md",
+      "must_keep": true,
+      "note": "Standard creative document."
+    },
+    {
+      "path": "RUNBOOK.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/docs/RUNBOOK.md",
+      "must_keep": true,
+      "note": "Standard creative document."
+    },
+    {
+      "path": "SKILL/agent-team-orchestration-1.0.0/SKILL.md",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "skills/agent-team-orchestration-1.0.0/SKILL.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/agent-team-orchestration-1.0.0/_meta.json",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "skills/agent-team-orchestration-1.0.0/_meta.json",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/agent-team-orchestration-1.0.0/references/communication.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/agent-team-orchestration-1.0.0/references/communication.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/agent-team-orchestration-1.0.0/references/patterns.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/agent-team-orchestration-1.0.0/references/patterns.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/agent-team-orchestration-1.0.0/references/task-lifecycle.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/agent-team-orchestration-1.0.0/references/task-lifecycle.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/agent-team-orchestration-1.0.0/references/team-setup.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/agent-team-orchestration-1.0.0/references/team-setup.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/elite-longterm-memory-1.2.3/README.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/elite-longterm-memory-1.2.3/README.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/elite-longterm-memory-1.2.3/SKILL.md",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "skills/elite-longterm-memory-1.2.3/SKILL.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/elite-longterm-memory-1.2.3/_meta.json",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "skills/elite-longterm-memory-1.2.3/_meta.json",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/elite-longterm-memory-1.2.3/bin/elite-memory.js",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/elite-longterm-memory-1.2.3/bin/elite-memory.js",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/elite-longterm-memory-1.2.3/package.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/elite-longterm-memory-1.2.3/package.json",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/fix-issues-1.0.0/SKILL.md",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "skills/fix-issues-1.0.0/SKILL.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/SKILL.md",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/SKILL.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/_meta.json",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/_meta.json",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/assets/ERRORS.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/assets/ERRORS.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/assets/FEATURE_REQUESTS.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/assets/FEATURE_REQUESTS.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/assets/LEARNINGS.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/assets/LEARNINGS.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/assets/SKILL-TEMPLATE.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/assets/SKILL-TEMPLATE.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/hooks/openclaw/HOOK.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/hooks/openclaw/HOOK.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/hooks/openclaw/handler.js",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/hooks/openclaw/handler.js",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/hooks/openclaw/handler.ts",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/hooks/openclaw/handler.ts",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/references/examples.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/references/examples.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/references/hooks-setup.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/references/hooks-setup.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/references/openclaw-integration.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/references/openclaw-integration.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/scripts/activator.sh",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/scripts/activator.sh",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/scripts/error-detector.sh",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/scripts/error-detector.sh",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/self-improving-agent-3.0.11/scripts/extract-skill.sh",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/self-improving-agent-3.0.11/scripts/extract-skill.sh",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SKILL/telemetry-guardian-v1.0/SKILL.md",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "skills/telemetry-guardian-v1.0/SKILL.md",
+      "must_keep": true,
+      "note": "Packaged Hermes skill bundle."
+    },
+    {
+      "path": "SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/orchestrator/SOUL.md",
+      "must_keep": true,
+      "note": "Orchestrator soul (Lãng Khách)."
+    },
+    {
+      "path": "STYLE_GUIDE.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/docs/STYLE_GUIDE.md",
+      "must_keep": true,
+      "note": "Standard creative document."
+    },
+    {
+      "path": "config/ai_flavor_patterns.json",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "config/ai_flavor_patterns.json",
+      "must_keep": true,
+      "note": "Creative config (kept)."
+    },
+    {
+      "path": "config/cool_point_markers.json",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "config/cool_point_markers.json",
+      "must_keep": true,
+      "note": "Creative config (kept)."
+    },
+    {
+      "path": "config/genre_aliases.json",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "config/genre_aliases.json",
+      "must_keep": true,
+      "note": "Creative config (kept)."
+    },
+    {
+      "path": "config/strand_keywords.json",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "config/strand_keywords.json",
+      "must_keep": true,
+      "note": "Creative config (kept)."
+    },
+    {
+      "path": "config/xianxia_language_guard.json",
+      "category": "creative-config",
+      "mapping_status": "kept",
+      "target": "config/language_guard/xianxia.json",
+      "must_keep": true,
+      "note": "Creative config (standardized into config/language_guard/)."
+    },
+    {
+      "path": "sub_agents/chan_nhan/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents/chan_nhan/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents/dong_tu/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents/dong_tu/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents/huyet_thu/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents/huyet_thu/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents/mong_yem/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents/mong_yem/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents/thien_co_tu/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents/thien_co_tu/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_do_thi/bo_cuc/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_do_thi/bo_cuc/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_do_thi/but_gia/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_do_thi/but_gia/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_do_thi/kien_truc_su/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_do_thi/kien_truc_su/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_do_thi/nhan_sinh/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_do_thi/nhan_sinh/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_do_thi/tham_phan/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_do_thi/tham_phan/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_he_thong/chu_than/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_he_thong/chu_than/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_he_thong/giam_sat/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_he_thong/giam_sat/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_he_thong/giao_dien/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_he_thong/giao_dien/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_he_thong/ky_chu/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_he_thong/ky_chu/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_he_thong/nhiem_vu/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_he_thong/nhiem_vu/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_khoa_huyen/ban_the/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_khoa_huyen/ban_the/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_khoa_huyen/ky_di/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_khoa_huyen/ky_di/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_khoa_huyen/luong_tu/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_khoa_huyen/luong_tu/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_khoa_huyen/ma_tran/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_khoa_huyen/ma_tran/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_khoa_huyen/oracle/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_khoa_huyen/oracle/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_ngon_tinh/cam_sat/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_ngon_tinh/cam_sat/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_ngon_tinh/hong_nhan/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_ngon_tinh/hong_nhan/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_ngon_tinh/minh_kinh/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_ngon_tinh/minh_kinh/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_ngon_tinh/nguyet_lao/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_ngon_tinh/nguyet_lao/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_ngon_tinh/tinh_kiep/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_ngon_tinh/tinh_kiep/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_xuyen_khong/ban_do/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_xuyen_khong/ban_do/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_xuyen_khong/luan_hoi/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_xuyen_khong/luan_hoi/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_xuyen_khong/menh_chu/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_xuyen_khong/menh_chu/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_xuyen_khong/su_quan/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_xuyen_khong/su_quan/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "sub_agents_xuyen_khong/thien_dao/SOUL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "subagents/sub_agents_xuyen_khong/thien_dao/SOUL.md",
+      "must_keep": true,
+      "note": "Persona soul (system prompt for Hermes subagent)."
+    },
+    {
+      "path": "system/Apocalypse/Depth/Apocalypse_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Apocalypse/Depth/Apocalypse_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Apocalypse/Genre Operating/Apocalypse_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Apocalypse/Genre Operating/Apocalypse_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Apocalypse/vocabulary.txt",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Apocalypse/vocabulary.txt",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Cthulhu/Depth/Cthulhu_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Cthulhu/Depth/Cthulhu_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Cthulhu/Genre Operating/Cthulhu_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Cthulhu/Genre Operating/Cthulhu_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Cthulhu/vocabulary.txt",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Cthulhu/vocabulary.txt",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Dark Theme/Depth/DarkTheme_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Dark Theme/Depth/DarkTheme_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Dark Theme/Genre Operating/DarkTheme_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Dark Theme/Genre Operating/DarkTheme_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Dark Theme/vocabulary.txt",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Dark Theme/vocabulary.txt",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Many Children/Depth/ManyChildren_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Many Children/Depth/ManyChildren_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Many Children/Genre Operating/ManyChildren_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Many Children/Genre Operating/ManyChildren_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Many Children/vocabulary.txt",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Many Children/vocabulary.txt",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Meta Genre/Author Style/giang-ho-tai-kien-style-profile.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Meta Genre/Author Style/giang-ho-tai-kien-style-profile.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Meta Genre/Author Style/mac-huong-dong-khuu-style-profile.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Meta Genre/Author Style/mac-huong-dong-khuu-style-profile.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Meta Genre/Author Style/mac-vu-style-profile.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Meta Genre/Author Style/mac-vu-style-profile.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Meta Genre/Author Style/tan-phong-style-profile.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Meta Genre/Author Style/tan-phong-style-profile.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Meta Genre/Author Style/thanh-sam-thu-style-profile.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Meta Genre/Author Style/thanh-sam-thu-style-profile.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Meta Genre/Depth/MetaGenre_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Meta Genre/Depth/MetaGenre_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Meta Genre/Genre Operating/MetaGenre_System_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Meta Genre/Genre Operating/MetaGenre_System_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Meta Genre/MetaGenre_consistency_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Meta Genre/MetaGenre_consistency_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Meta Genre/MetaGenre_style.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Meta Genre/MetaGenre_style.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Romance/Author Style/[CM] CoMan_GuMan_romance_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Romance/Author Style/[CM] CoMan_GuMan_romance_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Romance/Author Style/[DH] DongHoa_TongHua_romance_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Romance/Author Style/[DH] DongHoa_TongHua_romance_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Romance/Author Style/[DM] DinhMac_DingMo_romance_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Romance/Author Style/[DM] DinhMac_DingMo_romance_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Romance/Author Style/[PNTT] PhiNgaTuTon_FeiWoSiCun_romance_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Romance/Author Style/[PNTT] PhiNgaTuTon_FeiWoSiCun_romance_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Romance/Author Style/[TDO] TanDiO_XinYiWu_romance_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Romance/Author Style/[TDO] TanDiO_XinYiWu_romance_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Romance/Depth/Romance_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Romance/Depth/Romance_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Romance/Romance_consistency_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Romance/Romance_consistency_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Romance/Romance_style.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Romance/Romance_style.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Rules Horror/Depth/RulesHorror_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Rules Horror/Depth/RulesHorror_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Rules Horror/Genre Operating/RulesHorror_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Rules Horror/Genre Operating/RulesHorror_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Rules Horror/vocabulary.txt",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Rules Horror/vocabulary.txt",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Sci-fi/Author Style/luu-tu-han-style-profile.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Sci-fi/Author Style/luu-tu-han-style-profile.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Sci-fi/Author Style/thai-hong-chi-mon-style-profile.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Sci-fi/Author Style/thai-hong-chi-mon-style-profile.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Sci-fi/Author Style/thap-nien-that-style-profile.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Sci-fi/Author Style/thap-nien-that-style-profile.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Sci-fi/Author Style/that-thap-nhi-bien-style-profile.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Sci-fi/Author Style/that-thap-nhi-bien-style-profile.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Sci-fi/Author Style/vien-dong-style-profile.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Sci-fi/Author Style/vien-dong-style-profile.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Sci-fi/Depth/SciFi_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Sci-fi/Depth/SciFi_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Sci-fi/Genre Operating/SciFi_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Sci-fi/Genre Operating/SciFi_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Sci-fi/Sci-fi_consistency_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Sci-fi/Sci-fi_consistency_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Sci-fi/Sci-fi_style.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Sci-fi/Sci-fi_style.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Short Form/Depth/ShortForm_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Short Form/Depth/ShortForm_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Short Form/Genre Operating/ShortForm_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Short Form/Genre Operating/ShortForm_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Short Form/vocabulary.txt",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Short Form/vocabulary.txt",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/StoryDepth/CREATE_NOVEL_FIELD_EXECUTION.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/StoryDepth/CREATE_NOVEL_FIELD_EXECUTION.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Streaming/Depth/Streaming_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Streaming/Depth/Streaming_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Streaming/Genre Operating/Streaming_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Streaming/Genre Operating/Streaming_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Streaming/vocabulary.txt",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Streaming/vocabulary.txt",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Substitute/Depth/Substitute_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Substitute/Depth/Substitute_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Substitute/Genre Operating/Substitute_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Substitute/Genre Operating/Substitute_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Substitute/vocabulary.txt",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Substitute/vocabulary.txt",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Author Style/[AV] AViet_AYue_xuyenkhong_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Author Style/[AV] AViet_AYue_xuyenkhong_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Author Style/[BD] BuiDoCau_PeiTuGou_chuthien_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Author Style/[BD] BuiDoCau_PeiTuGou_chuthien_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Author Style/[HT] PhanNoHuongTieu_AngryBanana_xuyenkhong_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Author Style/[HT] PhanNoHuongTieu_AngryBanana_xuyenkhong_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Author Style/[LU] LaoUngTieuKe_VanTocChiKiep_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Author Style/[LU] LaoUngTieuKe_VanTocChiKiep_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Author Style/[MB] MaiBaoTieuLangQuan_DaiPhung_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Author Style/[MB] MaiBaoTieuLangQuan_DaiPhung_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Author Style/[MN] MaoNi_CatNi_xuyenkhong_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Author Style/[MN] MaoNi_CatNi_xuyenkhong_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Author Style/[NQ] NguyetQuan_YueGuan_xuyenkhong_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Author Style/[NQ] NguyetQuan_YueGuan_xuyenkhong_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Author Style/[TG] TamGioiDaiSu_SanJieDaShi_xuyenkhong_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Author Style/[TG] TamGioiDaiSu_SanJieDaShi_xuyenkhong_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Author Style/[TT] TruuTu_HuiShuoHua_hethong_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Author Style/[TT] TruuTu_HuiShuoHua_hethong_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Author Style/[ZT] Zhttty_TruongHang_vohankhungbo_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Author Style/[ZT] Zhttty_TruongHang_vohankhungbo_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Depth/TimeTravel_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Depth/TimeTravel_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/Genre Operating/TimeTravel_Causality_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/Genre Operating/TimeTravel_Causality_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/TimeTravel_consistency_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/TimeTravel_consistency_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Time Travel/TimeTravel_style.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Time Travel/TimeTravel_style.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Urban/Author Style/[KV] KhieuVu_Dancing_urban_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Urban/Author Style/[KV] KhieuVu_Dancing_urban_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Urban/Author Style/[LHH] LieuHaHue_LiuXiaHui_urban_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Urban/Author Style/[LHH] LieuHaHue_LiuXiaHui_urban_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Urban/Author Style/[LUAG] LaoUngAnGa_EagleEatsChicken_urban_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Urban/Author Style/[LUAG] LaoUngAnGa_EagleEatsChicken_urban_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Urban/Author Style/[NNND] NguNhanNhiDai_FishmanII_urban_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Urban/Author Style/[NNND] NguNhanNhiDai_FishmanII_urban_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Urban/Author Style/[PHHCH] PhongHoaHiChuHau_FengHuo_urban_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Urban/Author Style/[PHHCH] PhongHoaHiChuHau_FengHuo_urban_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Urban/Depth/Urban_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Urban/Depth/Urban_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Urban/Genre Operating/Urban_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Urban/Genre Operating/Urban_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Urban/Urban_consistency_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Urban/Urban_consistency_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Urban/Urban_style.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Urban/Urban_style.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/War Espionage/Depth/WarEspionage_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/War Espionage/Depth/WarEspionage_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/War Espionage/Genre Operating/WarEspionage_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/War Espionage/Genre Operating/WarEspionage_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/War Espionage/vocabulary.txt",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/War Espionage/vocabulary.txt",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Author Style/[CD] ThanDong_ChenDong_xianxia_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Author Style/[CD] ThanDong_ChenDong_xianxia_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Author Style/[DG] DuongGiaTamThieu_TangJiaSanShao_xianxia_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Author Style/[DG] DuongGiaTamThieu_TangJiaSanShao_xianxia_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Author Style/[NC] NhiCan_ErGen_xianxia_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Author Style/[NC] NhiCan_ErGen_xianxia_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Author Style/[OT] MucThichLanNuoc_Cuttlefish_xianxia_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Author Style/[OT] MucThichLanNuoc_Cuttlefish_xianxia_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Author Style/[PL] PhongLangThienHa_FengLingTianXia_xianxia_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Author Style/[PL] PhongLangThienHa_FengLingTianXia_xianxia_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Author Style/[PT] PhuongTuong_FangXiang_xianxia_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Author Style/[PT] PhuongTuong_FangXiang_xianxia_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Author Style/[TD] TieuDinh_XiaoDing_xianxia_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Author Style/[TD] TieuDinh_XiaoDing_xianxia_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Author Style/[TH] NgaCatTayHongThi_IEatTomatoes_xianxia_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Author Style/[TH] NgaCatTayHongThi_IEatTomatoes_xianxia_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Author Style/[TT] ThienTamThoDau_SilkwormPotato_xianxia_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Author Style/[TT] ThienTamThoDau_SilkwormPotato_xianxia_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Author Style/[VN] VongNgu_WangYu_xianxia_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Author Style/[VN] VongNgu_WangYu_xianxia_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Depth/Xianxia_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Depth/Xianxia_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Progression/Cultivation_Progression_System.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Progression/Cultivation_Progression_System.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Texture/Tu_Tien_Texture_Floor.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Texture/Tu_Tien_Texture_Floor.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/World/Xianxia_World_Operating_System.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/World/Xianxia_World_Operating_System.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Worldbuilding guide/ThanDong_Worldbuilding_Complete.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Worldbuilding guide/ThanDong_Worldbuilding_Complete.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Worldbuilding guide/[DG] DuongGiaTamThieu_Worldbuilding_Complete.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Worldbuilding guide/[DG] DuongGiaTamThieu_Worldbuilding_Complete.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Worldbuilding guide/[NC] NhiCan_Worldbuilding_Complete.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Worldbuilding guide/[NC] NhiCan_Worldbuilding_Complete.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Worldbuilding guide/[PL] PhongLangThienHa_Worldbuilding_Complete.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Worldbuilding guide/[PL] PhongLangThienHa_Worldbuilding_Complete.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Worldbuilding guide/[TD] TieuDinh_Worldbuilding_Complete.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Worldbuilding guide/[TD] TieuDinh_Worldbuilding_Complete.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Worldbuilding guide/[TH] NgaCatTayHongThi_Worldbuilding_Complete.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Worldbuilding guide/[TH] NgaCatTayHongThi_Worldbuilding_Complete.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Worldbuilding guide/[TT] ThienTamThoDau_Worldbuilding_Complete.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Worldbuilding guide/[TT] ThienTamThoDau_Worldbuilding_Complete.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Worldbuilding guide/[VN] VongNgu_Worldbuilding_Complete.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Worldbuilding guide/[VN] VongNgu_Worldbuilding_Complete.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Xianxia_consistency_rules.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Xianxia_consistency_rules.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/Xianxia/Xianxia_style.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/Xianxia/Xianxia_style.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/eSports/Depth/eSports_Depth_Contract.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/eSports/Depth/eSports_Depth_Contract.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/eSports/Genre Operating/eSports_Operating_Guide.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/eSports/Genre Operating/eSports_Operating_Guide.md",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "system/eSports/vocabulary.txt",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/canon/system/eSports/vocabulary.txt",
+      "must_keep": true,
+      "note": "Genre canon / StoryDepth knowledge."
+    },
+    {
+      "path": "templates/AUTHOR_STYLE_CATALOG.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/AUTHOR_STYLE_CATALOG.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/GOAL_TRACKER_TEMPLATE.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/GOAL_TRACKER_TEMPLATE.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/HYBRID_GENRE_GUIDE.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/HYBRID_GENRE_GUIDE.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/PLAN_TEMPLATE.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/PLAN_TEMPLATE.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/PROJECT_DNA_FILLABLE.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/PROJECT_DNA_FILLABLE.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/PROJECT_DNA_TEMPLATE.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/PROJECT_DNA_TEMPLATE.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/WORKFLOW_TEMPLATE.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/WORKFLOW_TEMPLATE.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/database/master_timeline_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/database/master_timeline_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/database/meta_system_operating_config_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/database/meta_system_operating_config_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/database/sci_fi_world_operating_config_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/database/sci_fi_world_operating_config_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/database/seeds_tracker_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/database/seeds_tracker_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/database/style_vault_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/database/style_vault_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/database/threads_master_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/database/threads_master_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/database/time_travel_causality_config_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/database/time_travel_causality_config_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/database/xianxia_character_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/database/xianxia_character_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/database/xianxia_world_operating_config_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/database/xianxia_world_operating_config_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/examples/PROJECT_DNA_SAMPLE_XIANXIA.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/examples/PROJECT_DNA_SAMPLE_XIANXIA.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/genres/PROJECT_DNA_META_GENRE.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/genres/PROJECT_DNA_META_GENRE.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/genres/PROJECT_DNA_ROMANCE.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/genres/PROJECT_DNA_ROMANCE.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/genres/PROJECT_DNA_SCIFI.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/genres/PROJECT_DNA_SCIFI.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/genres/PROJECT_DNA_TIME_TRAVEL.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/genres/PROJECT_DNA_TIME_TRAVEL.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/genres/PROJECT_DNA_URBAN.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/genres/PROJECT_DNA_URBAN.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/genres/PROJECT_DNA_XIANXIA.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/genres/PROJECT_DNA_XIANXIA.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/novel/Memory_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/novel/Memory_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/novel/NOVEL_STRUCTURE.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/novel/NOVEL_STRUCTURE.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/novel/master_outline_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/novel/master_outline_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/novel/pipeline_log_template.md",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/novel/pipeline_log_template.md",
+      "must_keep": true,
+      "note": "Creative template."
+    },
+    {
+      "path": "templates/novel/pipeline_status_template.json",
+      "category": "creative-knowledge",
+      "mapping_status": "kept",
+      "target": "skills/novelkit-canon/templates/novel/pipeline_status_template.json",
+      "must_keep": true,
+      "note": "Creative template."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.git
+.venv
+.pytest_cache
+.hypothesis
+node_modules
+webapp/frontend/node_modules
+webapp/frontend/dist
+storage
+workspaces
+.data
+.secrets
+.env
+*.pyc
+__pycache__
+.DS_Store

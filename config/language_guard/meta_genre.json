@@ -1,0 +1,12 @@
+{
+  "genre": "meta_genre",
+  "description": "Meta Genre guard — blocks terms that unintentionally break the fourth wall (ported from genre_language_guard.META_GENRE_BANNED_TERMS).",
+  "banned_terms": [
+    {"term": "tác giả", "replacement": "người tạo hệ thống / đấng tạo hóa", "reason": "Author reference breaks immersion"},
+    {"term": "độc giả", "replacement": "người quan sát / bên ngoài", "reason": "Reader reference breaks immersion"},
+    {"term": "tiểu thuyết", "replacement": "thế giới / thực tại", "reason": "Novel reference unless meta-aware"},
+    {"term": "chương trước", "replacement": "lúc trước / trước đó", "reason": "Chapter reference breaks immersion"},
+    {"term": "chương sau", "replacement": "sắp tới / tiếp theo", "reason": "Chapter reference breaks immersion"}
+  ],
+  "whitelist": []
+}

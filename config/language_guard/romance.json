@@ -1,0 +1,15 @@
+{
+  "genre": "romance",
+  "description": "Romance genre guard — blocks heavy combat/system/gaming diction (ported from genre_language_guard.ROMANCE_BANNED_TERMS).",
+  "banned_terms": [
+    {"term": "sát thương", "replacement": "tổn thương / đau", "reason": "Combat damage in romance"},
+    {"term": "DPS", "replacement": "sức mạnh tấn công", "reason": "Gaming term in romance"},
+    {"term": "buff", "replacement": "tăng cường / hỗ trợ", "reason": "Gaming term in romance"},
+    {"term": "nerf", "replacement": "suy yếu / giảm", "reason": "Gaming term in romance"},
+    {"term": "combo", "replacement": "chuỗi / liên hoàn", "reason": "Gaming term in romance"},
+    {"term": "chiến lực", "replacement": "năng lực / khả năng", "reason": "Combat power in romance"},
+    {"term": "tu vi", "replacement": "trình độ / năng lực", "reason": "Cultivation level in romance"},
+    {"term": "pháp thuật", "replacement": "phép màu / điều kỳ diệu", "reason": "Spells in romance (unless genre allows)"}
+  ],
+  "whitelist": []
+}

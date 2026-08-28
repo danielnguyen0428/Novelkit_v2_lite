@@ -1,0 +1,9 @@
+{
+  "entity_kinds": ["character","minor_cast","location","faction","artifact","world_rule","concept"],
+  "rel_types": ["master_disciple","kin","ally","enemy","romance","superior_subordinate"],
+  "terminal_event_types": ["death","sealed","departed"],
+  "recovery_event_types": ["revive","released"],
+  "min_conflict_confidence": 0.7,
+  "max_query_hops": 4,
+  "max_subgraph_nodes": 500
+}

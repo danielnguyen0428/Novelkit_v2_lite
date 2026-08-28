@@ -1,0 +1,344 @@
+{
+  "strict_classical_register": true,
+  "register_rules": [
+    "REGISTER XIANXIA (bắt buộc): khí sắc không được ghi đè phong cách đã chọn; khi viết tiếng Việt, cấm tiếng lóng hiện đại, chửi tục, tham chiếu văn hóa ngoài thế giới truyện và đơn vị giờ hiện đại trong bối cảnh cổ phong. Xưng hô phải theo thân phận; chất hài chỉ đến từ tình huống, không từ punchline gượng; không quá 2 câu cực ngắn liên tiếp ngoài chiến đấu hoặc chấn động thật sự."
+  ],
+  "register_rules_lexical_exception": [
+    "REGISTER XIANXIA (bắt buộc): khí sắc không được ghi đè phong cách đã chọn. Author Style đã chọn có NGOẠI LỆ lexical: theo đúng mức pha hiện đại mà profile đó cho phép, không siết về cổ phong thuần. Xưng hô vẫn phải theo thân phận; chất hài chỉ đến từ tình huống, không từ punchline gượng; không quá 2 câu cực ngắn liên tiếp ngoài chiến đấu hoặc chấn động thật sự."
+  ],
+  "style_overrides": {
+    "VN": [
+      "NHỊP VN (bắt buộc): câu vừa làm trục; câu ngắn dùng để chốt biến cố, không quá 2 câu cực ngắn liên tiếp ngoài chiến đấu hoặc chấn động thật sự; mọi pháp lực, tài nguyên và quyết định phải có nguồn, mức, cái giá và hậu quả."
+    ]
+  },
+  "banned_terms": [
+    {
+      "term": "burn-ring",
+      "replacement": "vết hỏa ấn / vòng lửa cháy"
+    },
+    {
+      "term": "counterseal",
+      "replacement": "phản ấn / đối ấn"
+    },
+    {
+      "term": "authority",
+      "replacement": "lệnh quyền / hiệu lực pháp lệnh"
+    },
+    {
+      "term": "ambiguity",
+      "replacement": "chỗ chưa rõ / điều còn treo"
+    },
+    {
+      "term": "node",
+      "replacement": "mạch ngầm / điểm ứng pháp"
+    },
+    {
+      "term": "wording",
+      "replacement": "nguyên văn / câu chữ"
+    },
+    {
+      "term": "containment",
+      "replacement": "phong giữ / giam giữ"
+    },
+    {
+      "term": "procedural",
+      "replacement": "phép xử sự / phép đối chứng"
+    },
+    {
+      "term": "person-lock",
+      "replacement": "khóa người / lập danh"
+    },
+    {
+      "term": "state machine",
+      "replacement": "cơ chế biến hóa theo từng nấc"
+    },
+    {
+      "term": "archive evidence",
+      "replacement": "chứng cũ / lưu chứng"
+    },
+    {
+      "term": "seal-residue",
+      "replacement": "dấu sáp / hơi phong ấn còn sót"
+    },
+    {
+      "term": "witness chain",
+      "replacement": "chuỗi nhân chứng / dây chứng nhân"
+    },
+    {
+      "term": "metadata",
+      "replacement": "ghi chú điều phối"
+    },
+    {
+      "term": "database",
+      "replacement": "kho điển tịch"
+    },
+    {
+      "term": "runtime",
+      "replacement": "lúc vận hành"
+    },
+    {
+      "term": "artifact",
+      "replacement": "bản thảo"
+    },
+    {
+      "term": "canon",
+      "replacement": "chuẩn truyện"
+    },
+    {
+      "term": "debug",
+      "replacement": "soát lỗi"
+    },
+    {
+      "term": "status",
+      "replacement": "tình thế"
+    },
+    {
+      "term": "RAG",
+      "replacement": "tàng thư"
+    },
+    {
+      "term": "API",
+      "replacement": "cổng truyền lệnh"
+    },
+    {
+      "term": "server",
+      "replacement": "đài cơ quan"
+    },
+    {
+      "term": "internet",
+      "replacement": "lưới truyền tin"
+    },
+    {
+      "term": "smartphone",
+      "replacement": "ngọc giản truyền âm"
+    },
+    {
+      "term": "robot",
+      "replacement": "khôi lỗi"
+    },
+    {
+      "term": "blockchain",
+      "replacement": "chuỗi khế ấn"
+    },
+    {
+      "term": "NFT",
+      "replacement": "độc vật định danh"
+    },
+    {
+      "term": "trending",
+      "replacement": "lan khắp phường chợ"
+    },
+    {
+      "term": "viral",
+      "replacement": "truyền khắp nhân gian"
+    },
+    {
+      "term": "workflow",
+      "replacement": "đường vận hành"
+    },
+    {
+      "term": "pipeline",
+      "replacement": "mạch vận hành"
+    },
+    {
+      "term": "MC Archetype",
+      "replacement": "cốt cách nhân vật chính"
+    },
+    {
+      "term": "Hook Strategy",
+      "replacement": "thế câu dẫn"
+    },
+    {
+      "term": "style_model",
+      "replacement": "mã phong cách"
+    },
+    {
+      "term": "worldbuilding_guide",
+      "replacement": "đạo thư dựng giới"
+    },
+    {
+      "term": "All Is Lost",
+      "replacement": "lúc đáy vực"
+    },
+    {
+      "term": "boss beat",
+      "replacement": "nhịp cản đường"
+    },
+    {
+      "term": "boss",
+      "replacement": "đối thủ chặn đường"
+    },
+    {
+      "term": "climax",
+      "replacement": "cao trào"
+    },
+    {
+      "term": "hook",
+      "replacement": "thế câu dẫn"
+    },
+    {
+      "term": "seed",
+      "replacement": "hạt giống"
+    },
+    {
+      "term": "quest",
+      "replacement": "chủ tuyến"
+    },
+    {
+      "term": "fire",
+      "replacement": "tình tuyến"
+    },
+    {
+      "term": "constellation",
+      "replacement": "giới tuyến"
+    },
+    {
+      "term": "MC",
+      "replacement": "nhân vật chính"
+    },
+    {
+      "term": "arc",
+      "replacement": "đại hồi"
+    },
+    {
+      "term": "meme",
+      "replacement": "trò đùa phường chợ"
+    },
+    {
+      "term": "infodump",
+      "replacement": "đổ lời giải thích"
+    },
+    {
+      "term": "scene",
+      "replacement": "cảnh"
+    },
+    {
+      "term": "POV",
+      "replacement": "góc nhìn"
+    },
+    {
+      "term": "trong chương trước",
+      "replacement": "lúc trước"
+    },
+    {
+      "term": "chương trước",
+      "replacement": "lúc trước"
+    },
+    {
+      "term": "hồ sơ",
+      "replacement": "án thư / quyển ghi chứng / hồ quyển"
+    },
+    {
+      "term": "hiện trường",
+      "replacement": "nơi phát chứng / chỗ lưu chứng"
+    },
+    {
+      "term": "thủ tục",
+      "replacement": "phép đối chứng / quy củ xét chứng"
+    },
+    {
+      "term": "trạng thái",
+      "replacement": "thế treo / tình thế / dấu hiệu đang hiện"
+    },
+    {
+      "term": "hệ thống",
+      "replacement": "cơ chế / pháp tắc / mạch pháp tắc"
+    },
+    {
+      "term": "khách hàng",
+      "replacement": "người mua / khách tu / đạo hữu mua hàng"
+    },
+    {
+      "term": "đăng ký",
+      "replacement": "ghi danh / nhập sổ"
+    },
+    {
+      "term": "ô nhiễm",
+      "replacement": "làm đục / làm tạp"
+    },
+    {
+      "term": "phong tỏa",
+      "replacement": "phong cấm / khóa chặt"
+    },
+    {
+      "term": "logic",
+      "replacement": "mạch nhân quả / lý lẽ / đường sống"
+    },
+    {
+      "term": "rủi ro",
+      "replacement": "hung hiểm / sát cơ / cái giá"
+    },
+    {
+      "term": "giờ tao mới hiểu",
+      "replacement": "đến lúc này ta mới hiểu / nay ta mới rõ",
+      "reason": "Khẩu ngữ hiện đại phá register Xianxia",
+      "severity": "error",
+      "allow_in_modern_setting": true
+    },
+    {
+      "term": "đứng hai tiếng",
+      "replacement": "đứng suốt một canh giờ / đứng từ giờ Dần đến giờ Mão",
+      "reason": "Đơn vị thời gian hiện đại trong bối cảnh cổ phong",
+      "severity": "error",
+      "allow_in_modern_setting": true
+    },
+    {
+      "term": "đã sáu giờ rồi",
+      "replacement": "giờ Mão đã qua / trời đã sáng rõ",
+      "reason": "Cách xem giờ hiện đại trong bối cảnh cổ phong",
+      "severity": "error",
+      "allow_in_modern_setting": true
+    },
+    {
+      "term": "thời lượng hiện đại tính bằng giờ",
+      "pattern": "(?:\\bcả\\s+tiếng\\s+đồng\\s+hồ\\b|\\b(?:đứng|chờ|đợi|mất|suốt)\\s+(?:một|hai|ba|bốn|năm|sáu|bảy|tám|chín|mười|\\d+)\\s+tiếng\\b|\\b(?:mất|suốt|khoảng|gần|hơn)\\s+(?:một|hai|ba|bốn|năm|sáu|bảy|tám|chín|mười|\\d+)\\s+giờ(?:\\s+đồng\\s+hồ)?\\b)",
+      "replacement": "một canh giờ / nửa canh giờ / từ giờ Dần đến giờ Mão",
+      "reason": "Đơn vị thời gian theo đồng hồ hiện đại phá bối cảnh cổ phong",
+      "severity": "error",
+      "allow_in_modern_setting": true
+    },
+    {
+      "term": "cơ mà",
+      "replacement": "nhưng / có điều",
+      "reason": "Khẩu ngữ hiện đại phá register Xianxia",
+      "severity": "error",
+      "allow_in_modern_setting": true
+    },
+    {
+      "term": "vãi",
+      "replacement": "bỏ hẳn hoặc diễn tả phản ứng bằng hành động",
+      "reason": "Tiếng lóng hiện đại phá register Xianxia",
+      "severity": "error",
+      "allow_in_modern_setting": true
+    },
+    {
+      "term": "đệt",
+      "replacement": "bỏ hẳn hoặc dùng lời cảm thán hợp thân phận",
+      "reason": "Tiếng chửi hiện đại phá register Xianxia",
+      "severity": "error",
+      "allow_in_modern_setting": true
+    },
+    {
+      "term": "chí phèo",
+      "replacement": "cường hào / ác bá / kẻ ngang ngược",
+      "reason": "Tham chiếu văn hóa ngoài thế giới truyện",
+      "severity": "error"
+    },
+    {
+      "term": "đại từ khẩu ngữ tao/mày",
+      "pattern": "(?:\\b(?:tụi bây|bọn mày|chúng mày)\\b|(?<!thanh )\\btao\\b(?!\\s+(?:nhã|nhân|đàn))|(?<!mặt )(?<!đôi )(?<!lông )(?<!nét )(?<!chân )(?<!cặp )(?<!hàng )\\bmày\\b(?!\\s+(?:rậm|bạc|cong|nhíu|cau|rạn|thanh|dài|ngài|mò)))",
+      "replacement": "ta / ngươi / các ngươi / huynh đệ (theo thân phận)",
+      "reason": "Đại từ khẩu ngữ hiện đại phá register Xianxia cổ phong",
+      "severity": "error",
+      "allow_in_modern_setting": true
+    },
+    {
+      "term": "thằng bạn từ nhỏ",
+      "pattern": "\\bthằng\\s+bạn\\s+(?:từ|thuở)\\s+nhỏ\\b",
+      "replacement": "người bạn thuở thiếu thời / huynh đệ thuở nhỏ",
+      "reason": "Lời kể khẩu ngữ hiện đại phá register Xianxia cổ phong",
+      "severity": "error",
+      "allow_in_modern_setting": true
+    }
+  ]
+}

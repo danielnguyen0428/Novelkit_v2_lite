@@ -1,0 +1,52 @@
+{
+  "_about": "Sample corpus for the anti-AI-detection regression test (Task 8.3, Property P9). 'ai_flavored' passages deliberately pack known AI-flavor patterns (config/ai_flavor_patterns.json) and should score >= RISK_THRESHOLD. 'human_like' passages are natural, bursty Vietnamese prose with strong verbs, concrete imagery and varied openers; they must stay below the threshold (no false positives).",
+  "ai_flavored": [
+    {
+      "id": "ai_light_adverb_cluster",
+      "note": "light_adverb_verb cluster + felt_very_label + eye_expression_template",
+      "text": "Hắn khẽ cười, nhẹ nhàng bước tới, lặng lẽ ngồi xuống bên bậc thềm đá. Ánh mắt thoáng tối lại, đôi mắt chợt lóe lên, tia nhìn vụt sâu thẳm. Hắn cảm thấy rất vui, rồi lại cảm thấy rất buồn, sau cùng cảm thấy rất cô đơn giữa sân điện vắng."
+    },
+    {
+      "id": "ai_syntax_closure",
+      "note": "four_stage_closure + parallel_three_clause (x2) + dramatic_irony_hint",
+      "text": "Vì hắn tu luyện chăm chỉ nên thực lực tăng nhanh kết quả vượt qua mọi đối thủ từ đó danh tiếng vang xa khắp tông môn. Nàng vừa cười vừa khóc vừa run rẩy trước tin dữ. Hắn không những thông minh tuyệt đỉnh mà còn tuấn tú hơn người hơn nữa xuất thân cao quý. Hắn đâu ngờ một ngày bình thường lại trở thành bước ngoặt của cả đời mình."
+    },
+    {
+      "id": "ai_pacing_motive",
+      "note": "uniform_pacing_marker (x5) + self_explaining_motive (x2) + post_dialogue_explanation",
+      "text": "Hắn rút kiếm. Sau đó hắn xoay người. Tiếp theo hắn lao tới. Rồi thì hắn vung kiếm. Kế đó hắn dừng lại. Sau khi đó hắn thở dài. Ý của hắn là muốn thử lòng đối phương. Nguyên nhân là vì hắn vẫn chưa tin tưởng hoàn toàn. \"Ta đi đây.\" Hắn nói vậy vì trong lòng đã quyết định rời đi."
+    },
+    {
+      "id": "ai_info_dump_dialogue",
+      "note": "info_dump_long_dialogue (x2 long quoted spans) + heart_label + felt_very_label",
+      "text": "Lão giả vuốt râu. \"Năm xưa khi đại kiếp giáng xuống, ba ngàn tông môn cùng nhau lập đàn tế trời, dùng máu của vạn người tu luyện để phong ấn con quỷ cổ xưa dưới đáy vực sâu, rồi lại chia nhau giữ chín mảnh ngọc bội, mỗi mảnh khắc một đạo cấm chế khác nhau, truyền đời này qua đời khác cho tới tận hôm nay khi con tới đây tìm ta.\" Hắn gật đầu. \"Ta hiểu rồi, nhưng ngươi phải biết rằng phong ấn ấy đã suy yếu từ trăm năm trước, khi vị trưởng lão cuối cùng của phái Thanh Vân qua đời mà chưa kịp truyền lại khẩu quyết, khiến cho cấm chế ngày một lỏng lẻo, và giờ đây chỉ cần một biến cố nhỏ cũng đủ khiến tất cả sụp đổ hoàn toàn.\" Trong lòng dâng lên nỗi sợ khó tả. Hắn cảm thấy rất sợ hãi, cảm thấy rất bối rối, lại cảm thấy rất tò mò trước lời của lão giả."
+    }
+  ],
+  "human_like": [
+    {
+      "id": "human_market_morning",
+      "note": "Concrete action, varied sentence length, varied openers.",
+      "text": "Chợ huyện ồn ã từ lúc trời còn nhập nhoạng. Một bà lão xếp lại mớ rau muống cho ngay ngắn, miệng mặc cả với người mua. Khói từ gánh phở bốc lên, quẩn vào mái tóc lấm tấm sương của mấy đứa trẻ chạy ngang. Lão Tư đặt con dao xuống thớt. Ông nhìn ra cổng chợ, nơi một gã lạ mặt vừa dừng chân. Gió thổi tung tà áo của gã. Có gì đó không ổn. Lão Tư biết điều đó ngay khi gã ngẩng đầu lên."
+    },
+    {
+      "id": "human_duel_river",
+      "note": "Strong verbs, physical detail, mixed cadence.",
+      "text": "Lưỡi đao bổ xuống. Triệu Vân lăn người tránh, bùn bắn lên mặt. Hắn chống tay đứng dậy, hơi thở rách ra từng nhịp. Đối phương cười nhạt, mũi giáo chỉ thẳng vào tim hắn. Bên kia bờ sông, đám lau sậy rạp xuống theo gió chiều, để lộ những xác thuyền cháy dở. Triệu Vân siết chặt chuôi đao. Mồ hôi và máu hòa vào nhau, mặn chát nơi khóe môi. Hắn bước một bước. Rồi lao vào."
+    },
+    {
+      "id": "human_letter_night",
+      "note": "Interiority shown through choice and image, no emotion labels.",
+      "text": "Đêm khuya, ngọn đèn dầu cháy gần hết tim. Nàng đọc lại bức thư lần thứ ba, ngón tay miết lên nếp gấp đã sờn. Chữ của cha nghiêng về bên phải, vội vã như thể viết trong cơn gió. Nàng gấp thư lại, đặt vào hộp gỗ cùng chiếc trâm bạc. Ngoài hiên, mưa bắt đầu rơi. Nàng thổi tắt đèn. Trong bóng tối, tiếng mưa nghe rõ hơn bao giờ hết, và nàng cứ ngồi như thế cho tới khi trời sáng."
+    },
+    {
+      "id": "human_council_argument",
+      "note": "Dialogue carries motive implicitly; varied line lengths.",
+      "text": "\"Mở cổng thành là tự sát.\" Tướng quân đập tay xuống bàn. Lão thừa tướng không ngẩng lên, chỉ chậm rãi rót trà. \"Vậy đóng cổng thì sao? Dân ngoài thành chết đói trước khi giặc tới.\" Cả phòng im lặng. Một viên quan trẻ định nói, rồi thôi. Ngọn nến gần cửa sổ chợt nghiêng theo cơn gió lùa. Tướng quân nhìn ra ngoài, nơi đoàn người tị nạn xếp hàng dài tới tận chân đồi. Ông thở ra. \"Mở nửa cổng. Cho đàn bà và trẻ con vào trước.\""
+    },
+    {
+      "id": "human_mountain_path",
+      "note": "Sensory detail, irregular rhythm, no clichés.",
+      "text": "Con đường mòn vắt qua sườn núi, hẹp đến mức chỉ vừa một bàn chân. Lão tiều phu đi trước, gánh củi kĩu kịt trên vai. Sương phủ trắng cả thung lũng phía dưới. Thằng bé bám theo sau, tay nắm chặt vạt áo ông. Một con chim giật mình bay vọt khỏi bụi cây, làm rơi lả tả mấy giọt sương đọng. Ông dừng lại, đặt gánh xuống. \"Nghỉ chút.\" Thằng bé ngồi phịch xuống tảng đá, thở dốc, rồi đưa mắt nhìn xuống biển mây đang cuộn dưới chân."
+    }
+  ]
+}
