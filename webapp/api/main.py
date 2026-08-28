@@ -29,6 +29,7 @@ from webapp.api.deps import get_current_user
 from webapp.db.models import Base, User
 from webapp.db.session import engine, get_db
 
+from .provenance import PROVENANCE_ID, public_provenance
 from .schemas import (
     AnalyzeRequest,
     CompassMigrateRequest,
@@ -65,6 +66,14 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.middleware("http")
+async def _add_provenance_header(request, call_next):  # noqa: ANN001
+    response = await call_next(request)
+    response.headers["X-NovelKit-Provenance"] = PROVENANCE_ID
+    return response
+
 
 app.include_router(studio_router)
 
@@ -103,6 +112,11 @@ def _guard(fn):
 @app.get("/api/health")
 def health() -> dict[str, Any]:
     return {"status": "ok", "tools": len(SERVICE.tools())}
+
+
+@app.get("/api/provenance")
+def provenance() -> dict[str, str | bool]:
+    return public_provenance()
 
 
 @app.get("/api/tools")

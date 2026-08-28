@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "author": "Daniel Nguyen <danielnguyen0428@gmail.com>",
+  "license": "SEE LICENSE IN ../../LICENSE",
+  "homepage": "https://github.com/danielnguyen0428/Novelkit_v2_lite",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielnguyen0428/Novelkit_v2_lite.git"
+  },
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "exports": {

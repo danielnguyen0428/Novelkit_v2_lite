@@ -4,6 +4,13 @@
   "version": "2.0.0-lite",
   "type": "module",
   "description": "Local-only Studio UI for NovelKit V2-lite.",
+  "author": "Daniel Nguyen <danielnguyen0428@gmail.com>",
+  "license": "SEE LICENSE IN ../../LICENSE",
+  "homepage": "https://github.com/danielnguyen0428/Novelkit_v2_lite",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielnguyen0428/Novelkit_v2_lite.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "product": "NovelKit V2 Lite",
+  "version": "2.0.0-lite",
+  "provenance_id": "NOVELKIT-V2-LITE-DN0428-20260828-12A133B9E572",
+  "copyright": "Copyright (c) 2026 Daniel Nguyen",
+  "copyright_contact": "danielnguyen0428@gmail.com",
+  "canonical_repository": "https://github.com/danielnguyen0428/Novelkit_v2_lite",
+  "origin_commit": "12a133b9e5729ac221c014a2ec14cb6af251fef4",
+  "license": "LicenseRef-NovelKit-V2-Lite-NC-ND-1.0",
+  "telemetry": false
+}

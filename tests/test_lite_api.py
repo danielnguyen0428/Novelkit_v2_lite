@@ -32,6 +32,20 @@ def test_lite_health_and_studio(client: TestClient) -> None:
     assert health.status_code == 200
     assert health.json()["status"] == "ok"
     assert health.json()["tools"] >= 10
+    assert (
+        health.headers["X-NovelKit-Provenance"]
+        == "NOVELKIT-V2-LITE-DN0428-20260828-12A133B9E572"
+    )
+
+    provenance = client.get("/api/provenance")
+    assert provenance.status_code == 200
+    assert provenance.json()["canonical_repository"] == (
+        "https://github.com/danielnguyen0428/Novelkit_v2_lite"
+    )
+    assert provenance.json()["origin_commit"] == (
+        "12a133b9e5729ac221c014a2ec14cb6af251fef4"
+    )
+    assert provenance.json()["telemetry"] is False
 
     studio = client.get("/")
     assert studio.status_code == 200

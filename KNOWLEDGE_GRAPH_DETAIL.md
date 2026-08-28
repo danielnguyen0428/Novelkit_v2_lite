@@ -45,6 +45,7 @@ Tài liệu tra cứu nhanh code → responsibility → data. Kiến trúc tổn
 | `webapp/api/dna_genre_fields.py` | Genre-specific form fields |
 | `webapp/api/dna_genre_render.py` | Render genre sections vào PROJECT_DNA |
 | `webapp/api/novel_paths.py` | Owner-scoped storage paths |
+| `webapp/api/provenance.py` | Stable copyright, canonical source và provenance metadata |
 | `webapp/api/studio_routes.py` | Narrative graph endpoint |
 | `webapp/db/models.py` | SQLAlchemy operational models |
 | `webapp/db/session.py` | SQLite engine/session factory |
@@ -55,6 +56,7 @@ Tài liệu tra cứu nhanh code → responsibility → data. Kiến trúc tổn
 
 ```text
 GET  /api/health
+GET  /api/provenance
 GET  /api/tools
 GET  /api/schedule
 GET  /api/provider

@@ -6,6 +6,9 @@ Changelog này chỉ theo dõi sản phẩm Lite độc lập.
 
 - Khởi tạo repo độc lập `Novelkit_v2_lite`.
 - Viết lại README, kiến trúc, runbook và knowledge graph theo runtime local hiện tại.
+- Công khai theo giấy phép source-available phi thương mại, không phái sinh.
+- Thêm provenance manifest, API endpoint và HTTP/frontend/package metadata;
+  không thêm telemetry.
 
 ## 2026-08-28 — Lite repository baseline
 

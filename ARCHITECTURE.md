@@ -247,9 +247,24 @@ skills/novelkit-canon/   genre canon, templates và domain rules
 subagents/               creative role profiles
 config/                  runtime/domain configuration
 tests/                   backend, property và integration tests
+LICENSE                  điều khoản source-available NC/ND
+NOTICE                   thông báo bản quyền và provenance ID
+PROVENANCE.json          manifest nguồn gốc cho máy đọc
 ```
 
-## 9. Những thứ cố ý không có
+## 9. Provenance và quyền riêng tư
+
+Mỗi HTTP response mang header `X-NovelKit-Provenance`; endpoint
+`GET /api/provenance` trả cùng metadata với `PROVENANCE.json`. Frontend và package
+metadata cũng giữ canonical repository và provenance ID. Đây là các dấu thụ động
+để đối chiếu nguồn gốc, không phải telemetry: runtime không gọi về server của tác
+giả và không gửi dữ liệu người dùng.
+
+Giấy phép yêu cầu giữ nguyên các dấu này trên bản sao được phép phân phối. Repo
+public vẫn không thể làm một marker trong source trở thành bất khả xóa; bằng
+chứng gốc được neo thêm bằng lịch sử Git, origin commit và release tag.
+
+## 10. Những thứ cố ý không có
 
 Không có OAuth, account API, tenant switching, payment, credit, public catalog,
 reader page, publishing backend, Redis/Celery, PostgreSQL hay cloud secrets

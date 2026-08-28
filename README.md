@@ -127,6 +127,23 @@ Vite proxy `/api` về FastAPI tại `127.0.0.1:8000`.
 - [KNOWLEDGE_GRAPH_DETAIL.md](KNOWLEDGE_GRAPH_DETAIL.md): bản đồ module, API và artifact.
 - [CHANGELOG.md](CHANGELOG.md): thay đổi của riêng bản Lite.
 
+## Bản quyền và giấy phép
+
+Source được công khai để mọi người có thể xem, tải và sử dụng miễn phí cho mục
+đích cá nhân, giáo dục, nghiên cứu, đánh giá hoặc phi thương mại trong phạm vi
+[LICENSE](LICENSE). Đây là giấy phép **source-available**, không phải giấy phép
+open-source.
+
+Mọi mục đích thương mại hoặc hành vi sửa đổi, biến tấu, chuyển thể hay tạo bản
+phái sinh đều cần được cho phép rõ ràng bằng văn bản qua
+**danielnguyen0428@gmail.com**.
+
+Repo mang provenance ID
+`NOVELKIT-V2-LITE-DN0428-20260828-12A133B9E572`. Thông tin đối chiếu nằm trong
+[NOTICE](NOTICE), [PROVENANCE.json](PROVENANCE.json), metadata package và endpoint
+`GET /api/provenance`. Các dấu này chỉ xác nhận nguồn gốc; NovelKit V2 Lite không
+cài telemetry hay gửi dữ liệu truy vết ngầm.
+
 ## Phạm vi không có trong Lite
 
 - OAuth, session đăng nhập và quản trị tài khoản.

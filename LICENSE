@@ -1,0 +1,103 @@
+NovelKit V2 Lite Non-Commercial No-Derivatives Source License 1.0
+
+Copyright (c) 2026 Daniel Nguyen (GitHub: danielnguyen0428)
+All rights reserved.
+
+This license applies to the NovelKit V2 Lite source code, documentation,
+configuration, templates, and other original material in this repository
+(collectively, the "Software"). Third-party components remain subject to their
+respective licenses.
+
+1. Permitted use
+
+Subject to every condition in this license, the copyright holder grants you a
+personal, limited, worldwide, non-exclusive, non-transferable, revocable,
+royalty-free license to:
+
+  a. access, download, install, and run unmodified copies of the Software for
+     personal, educational, research, evaluation, or other non-commercial use;
+     and
+
+  b. make and redistribute verbatim, unmodified copies for non-commercial
+     purposes, provided that every copyright notice, license file, provenance
+     identifier, canonical repository reference, and disclaimer remains intact
+     and the copies are provided without charge.
+
+Normal installation, local configuration, creation of user content through the
+Software, and backup of user data do not by themselves create a modified or
+derivative version of the Software.
+
+2. Permission required
+
+You must obtain prior, express, written permission from the copyright holder
+before you do any of the following:
+
+  a. use the Software, an unmodified copy, or any part of it for a Commercial
+     Purpose;
+
+  b. modify, adapt, translate, port, rearrange, transform, extend, or create a
+     derivative work based on all or any part of the Software;
+
+  c. distribute, publish, host, sublicense, sell, lease, or provide access to a
+     modified or derivative version; or
+
+  d. incorporate all or any part of the Software into another product,
+     platform, hosted service, software-as-a-service offering, paid workflow,
+     or revenue-generating activity.
+
+"Commercial Purpose" means any use intended for or directed toward commercial
+advantage, monetary compensation, revenue generation, paid services, business
+operations, or the commercial benefit of a person or organization, whether
+directly or indirectly.
+
+Permission requests must be sent to:
+
+  danielnguyen0428@gmail.com
+
+Permission is granted only when the copyright holder provides an affirmative
+written authorization. Silence or failure to respond is not permission.
+
+3. Attribution and provenance
+
+You may not remove, conceal, alter, falsify, or bypass copyright notices,
+license terms, provenance identifiers, canonical repository references,
+authorship metadata, or other source-origin signals included with the Software.
+You may not represent the Software or a copy of it as your original work.
+
+The canonical source repository is:
+
+  https://github.com/danielnguyen0428/Novelkit_v2_lite
+
+4. User-created content
+
+This license does not claim ownership of novels, prompts, notes, or other
+original content created by a user through normal operation of the Software.
+It does not grant rights to third-party content that may be processed by the
+Software.
+
+5. No trademark license
+
+This license does not grant permission to use the names "NovelKit" or
+"NovelKit V2 Lite", associated logos, or other marks except as reasonably
+necessary to identify an unmodified copy and its canonical source.
+
+6. Termination
+
+Your rights under this license terminate automatically if you breach any term.
+Upon termination, you must stop using and distributing the Software and delete
+all copies in your possession or control, except where retention is required by
+law. Sections that by their nature should survive termination will survive.
+
+7. Disclaimer of warranty and limitation of liability
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT
+PERMITTED BY LAW, THE COPYRIGHT HOLDER WILL NOT BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE.
+
+8. Reservation of rights
+
+No rights are granted except those expressly stated in this license. This is a
+source-available license, not an open-source license certified by the Open
+Source Initiative.
