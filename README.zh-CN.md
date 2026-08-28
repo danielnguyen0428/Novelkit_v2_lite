@@ -1,4 +1,4 @@
-# NovelKit V2 Lite
+# NovelKit V2 Lite：AI 长篇小说创作工具
 
 **语言：** [Tiếng Việt](README.md) · [English](README.en.md) ·
 **简体中文** · [한국어](README.ko.md) · [日本語](README.ja.md)
@@ -337,6 +337,9 @@ NovelKit V2 Lite 使用 **source-available** 许可证发布，并非 open-sourc
 - 未经许可不得修改、改编或创建衍生作品；
 - 未经许可不得直接或间接用于商业目的；
 - 必须保留版权声明和 provenance metadata。
+
+许可证标识：`LicenseRef-NovelKit-V2-Lite-NC-ND-1.0`（定制的 source-available
+许可证，并非 OSI 批准的 open-source 许可证）。
 
 具体约束以 [LICENSE](LICENSE) 为准。申请商业授权或开发修改版本，请联系
 **danielnguyen0428@gmail.com**。

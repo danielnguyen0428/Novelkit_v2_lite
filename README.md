@@ -1,4 +1,4 @@
-# NovelKit V2 Lite
+# NovelKit V2 Lite: AI long-form novel writing pipeline
 
 **Ngôn ngữ:** **Tiếng Việt** · [English](README.en.md) ·
 [简体中文](README.zh-CN.md) · [한국어](README.ko.md) · [日本語](README.ja.md)
@@ -358,6 +358,9 @@ open-source:
 - không được dùng trực tiếp hoặc gián tiếp cho mục đích thương mại khi chưa có
   phép;
 - phải giữ nguyên thông báo bản quyền và provenance metadata.
+
+Mã giấy phép: `LicenseRef-NovelKit-V2-Lite-NC-ND-1.0` (source-available tùy biến,
+không phải giấy phép Open Source được OSI phê duyệt).
 
 Đọc điều khoản đầy đủ tại [LICENSE](LICENSE). Để xin quyền thương mại hoặc quyền
 phát triển một phiên bản biến thể, liên hệ **danielnguyen0428@gmail.com**.

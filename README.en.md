@@ -1,4 +1,4 @@
-# NovelKit V2 Lite
+# NovelKit V2 Lite: AI long-form novel writing pipeline
 
 **Languages:** [Tiếng Việt](README.md) · **English** ·
 [简体中文](README.zh-CN.md) · [한국어](README.ko.md) · [日本語](README.ja.md)
@@ -356,6 +356,9 @@ open-source license:
 - no modification, adaptation, or derivative work without permission;
 - no direct or indirect commercial use without permission;
 - copyright notices and provenance metadata must remain intact.
+
+License identifier: `LicenseRef-NovelKit-V2-Lite-NC-ND-1.0` (a custom
+source-available license, not an OSI-approved open-source license).
 
 Read [LICENSE](LICENSE) for the controlling terms. For commercial rights or
 permission to develop a modified version, contact

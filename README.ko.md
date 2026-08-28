@@ -1,4 +1,4 @@
-# NovelKit V2 Lite
+# NovelKit V2 Lite: AI 장편소설 집필 도구
 
 **언어:** [Tiếng Việt](README.md) · [English](README.en.md) ·
 [简体中文](README.zh-CN.md) · **한국어** · [日本語](README.ja.md)
@@ -353,6 +353,9 @@ NovelKit V2 Lite는 open-source가 아닌 **source-available** 라이선스로
 - 허가 없는 수정, 각색, 파생 저작물 생성 금지
 - 허가 없는 직접·간접 상업적 사용 금지
 - 저작권 고지와 provenance metadata 유지 필수
+
+라이선스 식별자: `LicenseRef-NovelKit-V2-Lite-NC-ND-1.0` (맞춤형
+source-available 라이선스이며 OSI 승인 open-source 라이선스가 아닙니다).
 
 법적 효력이 있는 전체 조건은 [LICENSE](LICENSE)를 확인하세요. 상업적 권리나
 수정 버전 개발 허가는 **danielnguyen0428@gmail.com**으로 문의하세요.

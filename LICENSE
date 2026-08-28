@@ -1,5 +1,9 @@
 NovelKit V2 Lite Non-Commercial No-Derivatives Source License 1.0
 
+SPDX-License-Identifier: LicenseRef-NovelKit-V2-Lite-NC-ND-1.0
+SPDX-FileCopyrightText: Copyright (c) 2026 Daniel Nguyen
+Effective date: 2026-08-28
+
 Copyright (c) 2026 Daniel Nguyen (GitHub: danielnguyen0428)
 All rights reserved.
 
@@ -11,8 +15,7 @@ respective licenses.
 1. Permitted use
 
 Subject to every condition in this license, the copyright holder grants you a
-personal, limited, worldwide, non-exclusive, non-transferable, revocable,
-royalty-free license to:
+limited, worldwide, non-exclusive, royalty-free license to:
 
   a. access, download, install, and run unmodified copies of the Software for
      personal, educational, research, evaluation, or other non-commercial use;
