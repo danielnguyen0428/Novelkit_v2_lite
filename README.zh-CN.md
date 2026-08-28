@@ -20,6 +20,14 @@ NovelKit V2 Lite 将故事创意转化为结构化的创作流程：建立故事
 > 自行选择并直接承担模型费用。商业使用以及任何修改版或衍生版，都必须事先
 > 获得书面许可。
 
+| 核心能力 | 关键依据 |
+| --- | --- |
+| 类型配置 | 6 个 genre canon pack + 明确的 hybrid routing |
+| 长期记忆 | A–E 五层 · 8 个数据 category · 受控 rotation |
+| Quality Gate | 85 分通过 · 70 分 soft-fail/revise · 仅接受后的 canon 才会晋级 |
+| 创作经验 | 3 年实际写作 · 真实项目 · 已出版书籍 |
+| 运营能力 | 面向 local-first、单 operator 的 Production-ready |
+
 ## 为什么需要 NovelKit？
 
 LLM 可以写出精彩的单个场景，但长篇小说需要的不只是一个好 prompt。在普通
@@ -103,6 +111,66 @@ Author reference 仅作为中性的身份 metadata。Runtime 不模仿真实作�
 
 **业务价值：**降低长项目运行或 provider 故障时 state 损坏的风险。
 
+### 6. 有真实创作经验支撑的类型配置
+
+NovelKit 提供六个核心 genre canon pack：仙侠、都市、言情、科幻、穿越和 Meta
+Genre。类型配置不只是替换 prompt 关键词，还会路由世界规则、人物状态、情节线、
+language guard、专业角色和 review checklist。Hybrid genre 也有明确的 primary
+genre、secondary genre 与混合比例。
+
+这套配置来自真实的小说创作实践。作者拥有**3 年写作经验**，有**实际小说项目**
+和**已经出版的书籍**。这些经验被沉淀到 DNA 表单、模板、canon pack 和可重复运行
+的检查中，而不是依赖一次聊天的直觉。
+
+**业务价值：**按类型快速启动，同时保留长篇连载所需的研究深度与制作纪律。
+
+### 7. 长期记忆是一套运行系统，而不是便签框
+
+Memory 按 novel 隔离，并以结构化 item 存储在八个 category 中，包括
+`character_state`、`story_facts`、`world_rules`、`timeline`、`open_loops`、
+`reader_promises`、`relationships` 和 `minor_cast`。
+
+五层 A–E 用来区分 canon、episode/context、summary 与 curated memory。Active memory
+约限制在 3,500 个词以内；较旧内容会受控地 rotation 到 archive，而不是静默丢弃。
+Context engine 会优先使用权威 canon，而不是 derivative index 或 cache。
+
+**业务价值：**系列越写越长，也不会因 context 稀释或不同 novel 串数据而失控。
+
+### 8. 从初稿到 canon 之间的严格 Quality Gate
+
+NovelKit 不会把模型第一次输出直接当作正式章节。每章都必须经过 self-check、review
+与 sync gate；参考阈值是**85 分通过**、**70 分 soft-fail/revise**。低于阈值或发生
+hard fail 时，初稿会回到有边界的修改循环。只有通过 gate 的章节才能进入 canon。
+
+Quality Auditor 与 Sync 会生成可检查的交付记录。相较于只聊天或自由调用 model 的
+工具，这是结构上的优势：确定性 DAG 维护 task 顺序，model 不能跳过 gate，缺陷也会
+在进入下一章前被拦截。
+
+**业务价值：**质量有标准、有停止条件，也有恢复路径，适合 editorial review、联合
+制作与连载 catalog。
+
+### 9. 面向 local-first 运营模型的 Production-ready
+
+Lite 的目标是真实运行单 operator 的工作流，而不只是 demo：
+
+- 使用 `temp + fsync + rename` 的原子写入；
+- 通过 digest、optimistic version 和 transaction manifest 支持 sync/recovery；
+- per-novel thread/file lock，避免并发写入；
+- persistent background jobs、status polling 与 startup recovery；
+- 加密 provider key、脱敏 error code 和本地 backup 边界；
+- source 中包含 backend、frontend 与 property-based tests。
+
+这里的“production-ready”限定为可靠的本地创作流程。Multi-user、billing、public
+catalog 与 cloud deployment 属于 Full NovelKit 或单独的实施项目。
+
+### 10. 可复制到整个内容 catalog 的基础
+
+File-first canon、genre routing、memory isolation 和 chapter pipeline 让流程可以
+复制到多部小说。Editorial 团队可以用同一套方式保存 story bible、review record、
+handoff artifact 与 series 状态。
+
+**业务价值：**从单一写作 prototype 走向可控制、可交接的内容 line-up。
+
 ## 在 Studio 中可以做什么？
 
 - 根据 premise、类型、人物和目标章节数创建小说。
@@ -114,6 +182,23 @@ Author reference 仅作为中性的身份 metadata。Runtime 不模仿真实作�
 - 在 narrative graph 中查看人物、地点与事件关系。
 - 分析 language guard 与机器化文本信号。
 - 通过 steer、advanced controls 和 NovelCLI 干预 pipeline 方向。
+
+## 合作与 Full NovelKit
+
+NovelKit V2 Lite 是用于评估、研究和搭建 workflow 的本地版本。出版社、内容 studio、
+creator network 或产品团队若需要完整的生产、授权与 catalog 能力，可通过
+[novelkit.cc](https://novelkit.cc/) 了解 Full NovelKit 合作方案。
+
+合作可以从 sample 开始：类型 brief、目标产量与版权模型 → sample chapter + story
+bible + pipeline log → 联合 review → 扩展 line-up 或定制部署。双方可在签订更大合作
+前，先用实际交付物确认质量与权利边界。
+
+- [了解 Full NovelKit](https://novelkit.cc/) — 平台与 production 能力。
+- [AI 小说创作方案](https://novelkit.cc/sang-tac-tieu-thuyet-ai) — 服务与 catalog 方向。
+- [洽谈合作](https://novelkit.cc/#cta) — 提交 brief 或 sample 需求。
+
+Lite repo 仍受 [LICENSE](LICENSE) 约束：商业化或创建修改版/衍生版必须获得明确许可。
+购买或合作使用 Full NovelKit 属于独立的产品/服务协议。
 
 ## 适合谁？
 

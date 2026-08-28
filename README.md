@@ -21,6 +21,14 @@ Bạn quyết định câu chuyện. NovelKit đảm nhiệm phần vận hành 
 > Bạn tự chọn AI provider và thanh toán trực tiếp chi phí model. Mục đích thương
 > mại hoặc bản sửa đổi/phái sinh cần được chấp thuận bằng văn bản.
 
+| Năng lực cốt lõi | Điểm neo |
+| --- | --- |
+| Config thể loại | 6 genre canon pack + hybrid routing |
+| Bộ nhớ dài hạn | 5 lớp A–E · 8 nhóm dữ liệu · rotation có kiểm soát |
+| Quality Gate | 85 pass · 70 soft-fail/revise · chỉ canon đạt chuẩn mới được ghi |
+| Nghiệp vụ sáng tác | 3 năm kinh nghiệm viết · sản phẩm thực tế · sách đã xuất bản |
+| Vận hành | Production-ready cho local-first single-operator |
+
 ## Vì sao NovelKit tồn tại?
 
 LLM có thể viết một cảnh hay, nhưng một tiểu thuyết dài kỳ cần nhiều hơn một
@@ -107,6 +115,77 @@ công cụ sao chép văn phong cá nhân.
 
 **Giá trị:** giảm rủi ro hỏng state khi dự án chạy lâu hoặc provider gặp sự cố.
 
+### 6. Config thể loại có chiều sâu nghiệp vụ sáng tác
+
+NovelKit có 6 genre canon pack chính: Tiên Hiệp, Đô Thị, Ngôn Tình, Khoa Huyễn,
+Xuyên Không và Meta Genre. Mỗi lựa chọn không chỉ đổi vài từ khóa prompt; nó định
+tuyến world rules, trạng thái nhân vật, plot thread, language guard, nhóm chuyên
+gia và checklist review tương ứng. Hybrid genre cũng được định tuyến bằng primary
+genre, secondary genre và tỷ lệ phối hợp rõ ràng.
+
+Điểm khác biệt là lớp config này được xây dựng từ nghiệp vụ sáng tác tiểu thuyết:
+tác giả có **3 năm kinh nghiệm viết**, có **sản phẩm tiểu thuyết thực tế** và
+**sách đã xuất bản**. Kinh nghiệm đó được chuyển thành form DNA, template, canon
+pack và các điểm kiểm tra có thể chạy lại—không phụ thuộc vào “cảm giác” của một
+lần chat.
+
+**Giá trị:** bắt đầu nhanh theo thể loại nhưng vẫn giữ được độ sâu nghiên cứu và
+logic vận hành cần cho một series dài kỳ.
+
+### 7. Bộ nhớ dài hạn được tổ chức như một hệ thống
+
+Memory không phải một ô “nhớ thêm” chung cho mọi dự án. NovelKit tách memory theo
+từng novel, lưu item theo 8 nhóm như `character_state`, `story_facts`,
+`world_rules`, `timeline`, `open_loops`, `reader_promises`, `relationships` và
+`minor_cast`.
+
+Năm lớp A–E giúp phân biệt canon, episode/context, summary và curated memory.
+Active memory có ngưỡng khoảng 3.500 từ; phần cũ được rotation/archive có kiểm soát
+thay vì xóa mù. Context engine luôn ưu tiên canon cao hơn index hoặc cache phái
+sinh.
+
+**Giá trị:** series dài có thể tích lũy tri thức mà không làm context bị loãng hoặc
+trộn dữ liệu giữa các novel.
+
+### 8. Quality Gate chặt từ draft đến canon
+
+NovelKit không coi output đầu tiên của model là bản chính thức. Mỗi chapter đi qua
+self-check, review và sync gate; ngưỡng tham chiếu là **85 để pass** và **70 để
+soft-fail/revise**. Dưới ngưỡng hoặc gặp hard fail, draft quay lại vòng sửa có giới
+hạn. Chỉ chapter đã qua gate mới được ghi vào canon.
+
+Quality Auditor và Sync gate tạo ra hồ sơ bàn giao có thể kiểm tra. Đây là lợi thế
+kiến trúc so với các tool chỉ chat hoặc gọi model tự do: thứ tự task do DAG tất
+định giữ, model không tự ý nhảy bước, và lỗi được chặn trước khi lan sang chapter
+tiếp theo.
+
+**Giá trị:** chất lượng có tiêu chuẩn, có điểm dừng và có đường quay lại—phù hợp
+với editorial review, co-production và xuất bản theo line-up.
+
+### 9. Production-ready trong phạm vi local-first
+
+Bản Lite được thiết kế để chạy thật cho một operator, không chỉ làm demo:
+
+- atomic write với `temp + fsync + rename`;
+- digest, optimistic version và transaction manifest cho sync/recovery;
+- per-novel thread/file lock chống ghi đồng thời;
+- persistent background jobs, status polling và startup recovery;
+- encrypted provider key, redacted error code và local backup boundary;
+- backend, frontend và property-based tests đi cùng source.
+
+“Production-ready” ở đây có nghĩa là đáng tin cậy cho workflow sáng tác local.
+Nếu cần nhiều người dùng, billing, public catalog hoặc cloud deployment, đó là
+phạm vi của bản Full NovelKit và dịch vụ triển khai riêng.
+
+### 10. Sẵn sàng mở rộng thành catalog, không chỉ một cuốn sách
+
+Canon file-first, genre routing, memory isolation và pipeline theo chapter tạo ra
+một nền móng có thể lặp lại cho nhiều novel. Đội editorial có thể giữ story bible,
+review record, handoff artifact và trạng thái từng series trong cùng một cách làm.
+
+**Giá trị:** từ một prototype sáng tác chuyển thành quy trình xây line-up nội dung
+có thể bàn giao và kiểm soát.
+
 ## Bạn có thể làm gì trong Studio?
 
 - Tạo novel từ premise, thể loại, nhân vật và mục tiêu số chương.
@@ -118,6 +197,27 @@ công cụ sao chép văn phong cá nhân.
 - Xem quan hệ nhân vật, địa điểm và sự kiện trong narrative graph.
 - Phân tích language guard và dấu hiệu văn bản máy móc.
 - Can thiệp hướng đi của pipeline qua steer và NovelCLI.
+
+## Hợp tác và bản Full NovelKit
+
+NovelKit V2 Lite là bản local để dùng thử, nghiên cứu và xây workflow riêng. Nếu
+bạn là nhà xuất bản, studio nội dung, creator network hoặc đội sản phẩm cần một
+hệ thống đầy đủ hơn, bản Full NovelKit tại [novelkit.cc](https://novelkit.cc/)
+cung cấp hướng hợp tác, sản xuất và mở rộng catalog.
+
+Mô hình hợp tác có thể bắt đầu bằng một sample: brief thể loại, sản lượng mục tiêu
+và yêu cầu bản quyền → sample chapter + story bible + pipeline log → review chung
+→ mở rộng line-up hoặc triển khai theo yêu cầu. Cách này giúp hai bên đánh giá chất
+lượng và quyền sở hữu trước khi đi vào hợp đồng lớn.
+
+- [Khám phá Full NovelKit](https://novelkit.cc/) — nền tảng và năng lực production.
+- [Giải pháp sáng tác tiểu thuyết AI](https://novelkit.cc/sang-tac-tieu-thuyet-ai) —
+  định hướng dịch vụ và catalog.
+- [Trao đổi hợp tác](https://novelkit.cc/#cta) — gửi brief hoặc yêu cầu sample.
+
+Repo Lite vẫn tuân theo [LICENSE](LICENSE): quyền thương mại hóa hoặc tạo bản sửa
+đổi/phái sinh của repo cần xin phép rõ ràng. Việc mua hoặc hợp tác dùng Full
+NovelKit là một thỏa thuận sản phẩm/dịch vụ riêng.
 
 ## Phù hợp với ai?
 

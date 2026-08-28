@@ -212,6 +212,29 @@ graph TD
     Memory --> Context["Next-task context"]
 ```
 
+## 9. Lite evaluation to Full NovelKit partnership
+
+Lite và Full là hai phạm vi sản phẩm khác nhau. Repo này phù hợp để đánh giá và
+phát triển workflow local; nhu cầu production catalog, licensing hoặc triển khai
+cho đội ngũ được trao đổi riêng qua [novelkit.cc](https://novelkit.cc/).
+
+```mermaid
+flowchart LR
+    Lite["NovelKit V2 Lite<br/>local evaluation"]
+    Brief["Genre brief<br/>output target · rights model"]
+    Sample["Sample delivery<br/>chapter + story bible + pipeline log"]
+    Review["Joint quality + rights review"]
+    Full["Full NovelKit<br/>production / licensing / deployment"]
+    Catalog["Serialized catalog<br/>line-up operations"]
+
+    Lite --> Brief
+    Brief --> Sample
+    Sample --> Review
+    Review -->|"approved scope"| Full
+    Full --> Catalog
+    Review -->|"iterate"| Sample
+```
+
 ## Verification anchors
 
 - Canonical repository:

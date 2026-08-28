@@ -21,6 +21,14 @@ You direct the story. NovelKit handles the operational complexity behind it.
 > use.** You choose and pay your AI provider directly. Commercial use or any
 > modified/derivative version requires prior written permission.
 
+| Core capability | Proof point |
+| --- | --- |
+| Genre configuration | 6 genre canon packs + explicit hybrid routing |
+| Long-term memory | 5 A–E layers · 8 data categories · controlled rotation |
+| Quality gate | 85 pass · 70 soft-fail/revise · only accepted canon is promoted |
+| Writing craft | 3 years of hands-on writing · real projects · published books |
+| Operations | Production-ready for local-first, single-operator use |
+
 ## Why NovelKit exists
 
 An LLM can produce a strong scene, but a long-running novel needs more than one
@@ -108,6 +116,76 @@ turning the product into a personal-style cloning tool.
 **Business value:** lower risk of corrupted state during long projects or
 provider failures.
 
+### 6. Genre configuration with real writing craft behind it
+
+NovelKit includes six core genre canon packs: Xianxia, Urban, Romance, Sci-Fi,
+Time Travel, and Meta Genre. A genre does more than swap prompt keywords. It
+routes world rules, character state, plot threads, language guards, specialist
+roles, and review checklists. Hybrid genres are explicit, with a primary genre,
+secondary genre, and declared blend ratio.
+
+This configuration is grounded in novel-writing practice. The author brings
+**three years of hands-on writing experience**, with **real novel projects** and
+**published books**. That experience is encoded into DNA forms, templates, canon
+packs, and repeatable checks rather than left to the intuition of one chat turn.
+
+**Business value:** start quickly from a genre system while retaining the research
+depth and operating discipline required by a long-running series.
+
+### 7. Long-term memory is an operating system, not a notes box
+
+Memory is isolated per novel and stored as structured items across eight
+categories, including `character_state`, `story_facts`, `world_rules`, `timeline`,
+`open_loops`, `reader_promises`, `relationships`, and `minor_cast`.
+
+Five A–E layers separate canon, episode/context, summaries, and curated memory.
+Active memory is capped at roughly 3,500 words; older material is rotated into a
+controlled archive instead of being silently discarded. The context engine ranks
+authoritative canon above derivative indexes and caches.
+
+**Business value:** a series can accumulate knowledge without diluting context or
+mixing data between novels.
+
+### 8. A strict quality gate between draft and canon
+
+NovelKit never treats the model's first output as the official chapter. Each
+chapter passes self-check, review, and sync gates. The reference thresholds are
+**85 to pass** and **70 for soft-fail/revise**. Below the threshold, or after a hard
+failure, the draft returns to a bounded revision cycle. Only a gated chapter enters
+canon.
+
+Quality Auditor and Sync produce inspectable handoff records. This is a structural
+advantage over chat-only tools and free-form model calls: a deterministic DAG keeps
+task order, models cannot skip the gate, and defects are stopped before they reach
+the next chapter.
+
+**Business value:** quality has a standard, a stop condition, and a recovery path—
+ready for editorial review, co-production, and serialized catalog work.
+
+### 9. Production-ready for the local-first operating model
+
+Lite is built to run a real workflow for one operator, not just a demo:
+
+- atomic writes with `temp + fsync + rename`;
+- digest, optimistic versions, and transaction manifests for sync/recovery;
+- per-novel thread/file locks against concurrent writes;
+- persistent background jobs, status polling, and startup recovery;
+- encrypted provider keys, redacted error codes, and a local backup boundary;
+- backend, frontend, and property-based tests shipped with the source.
+
+Here, “production-ready” is scoped to reliable local authoring. Multi-user access,
+billing, public catalogs, and cloud deployment belong to Full NovelKit and a
+separate implementation engagement.
+
+### 10. A repeatable foundation for a catalog, not just one book
+
+File-first canon, genre routing, memory isolation, and chapter-level pipelines make
+the workflow repeatable across multiple novels. Editorial teams can keep story
+bibles, review records, handoff artifacts, and series status in one operating model.
+
+**Business value:** move from a writing prototype to a controlled, handoff-ready
+content line-up.
+
 ## What you can do in Studio
 
 - Create a novel from a premise, genre, cast, and target chapter count.
@@ -119,6 +197,26 @@ provider failures.
 - Explore characters, places, and events in the narrative graph.
 - Analyze language guards and machine-like writing signals.
 - Steer pipeline direction through advanced controls and NovelCLI.
+
+## Partnership and Full NovelKit
+
+NovelKit V2 Lite is the local edition for evaluation, research, and workflow
+development. Publishers, content studios, creator networks, and product teams that
+need a fuller operating model can explore production, licensing, and catalog
+partnerships through [novelkit.cc](https://novelkit.cc/).
+
+Partnerships can start with a sample: genre brief, target output, and rights model
+→ sample chapter + story bible + pipeline log → joint review → expanded line-up or
+custom deployment. This gives both sides a concrete quality and rights checkpoint
+before a larger engagement.
+
+- [Explore Full NovelKit](https://novelkit.cc/) — platform and production capability.
+- [AI novel-writing solution](https://novelkit.cc/sang-tac-tieu-thuyet-ai) — service and catalog direction.
+- [Discuss a partnership](https://novelkit.cc/#cta) — send a brief or sample request.
+
+The Lite repository remains governed by [LICENSE](LICENSE): commercializing or
+creating a modified/derivative repository version requires explicit permission.
+Buying or partnering around Full NovelKit is a separate product/service agreement.
 
 ## Who it is for
 

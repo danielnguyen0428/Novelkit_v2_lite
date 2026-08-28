@@ -13,6 +13,8 @@ Changelog này chỉ theo dõi sản phẩm Lite độc lập.
   switcher nhất quán.
 - Thêm Mermaid diagrams cho product loop, system context, run sequence,
   long-form pipeline, job lifecycle, data authority, storage và knowledge graph.
+- Bổ sung positioning business về genre craft, long-term memory, Quality Gate,
+  production readiness, catalog scale và partnership với Full NovelKit.
 
 ## 2026-08-28 — Lite repository baseline
 

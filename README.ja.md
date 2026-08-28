@@ -21,6 +21,14 @@ canonの構築、プロット設計、章ごとの執筆、品質review、整合
 > 利用者が選択し、モデル利用料もproviderへ直接支払います。商用利用、変更版、
 > 派生版には、事前の書面による許可が必要です。
 
+| コア能力 | 根拠となるポイント |
+| --- | --- |
+| ジャンル設定 | 6つのgenre canon pack + 明示的なhybrid routing |
+| 長期memory | A–Eの5 layer · 8つのdata category · 管理されたrotation |
+| Quality Gate | 85でpass · 70でsoft-fail/revise · 承認canonだけを昇格 |
+| 執筆経験 | 3年の実執筆 · 実際のプロジェクト · 出版済み書籍 |
+| 運用能力 | local-first、1人operator向けのProduction-ready |
+
 ## NovelKitが必要な理由
 
 LLMは優れた一場面を書けますが、長編小説に必要なのは良いpromptひとつだけでは
@@ -106,6 +114,70 @@ Author referenceは中立的な識別metadataに限定されます。Runtimeは�
 
 **ビジネス価値:** 長期プロジェクトやprovider障害によるstate破損のリスクを抑えます。
 
+### 6. 実際の執筆経験に基づくジャンル設定
+
+NovelKitには、仙侠（Xianxia）、現代都市（Urban）、ロマンス（Romance）、SF、タイム
+トラベル、Meta Genreの6つの主要genre canon packがあります。ジャンル設定はprompt
+キーワードを置き換えるだけではありません。世界ルール、人物状態、プロット線、
+language guard、専門役割、review checklistまでをルーティングします。Hybrid genreも
+primary genre、secondary genre、配合比率を明示します。
+
+この設定には実際の小説制作の知見が反映されています。作者は**3年の執筆経験**を持ち、
+**実際の小説プロジェクト**と**出版済みの書籍**があります。その経験をDNA form、
+template、canon pack、再実行可能なcheckへ落とし込み、一度のchatの感覚だけに依存しません。
+
+**ビジネス価値:** ジャンルシステムで素早く始めながら、長期連載に必要な研究の深さと
+制作規律を保てます。
+
+### 7. 長期memoryはメモ欄ではなく運用システム
+
+Memoryはnovelごとに分離され、構造化されたitemとして保存されます。
+`character_state`、`story_facts`、`world_rules`、`timeline`、`open_loops`、
+`reader_promises`、`relationships`、`minor_cast`など8つのcategoryを使います。
+
+5つのA–E layerでcanon、episode/context、summary、curated memoryを分けます。Active
+memoryは約3,500語に収め、古い内容は管理されたrotation/archiveへ移します。Context
+engineはderivative indexやcacheより、権威あるcanonを優先します。
+
+**ビジネス価値:** シリーズが長くなってもcontextが薄まらず、novel間のデータも混ざりません。
+
+### 8. Draftからcanonを守る厳格なQuality Gate
+
+NovelKitはmodelの最初のoutputを正式なchapterとはみなしません。すべてのchapterが
+self-check、review、sync gateを通過します。基準は**85でpass**、**70で
+soft-fail/revise**です。基準未達またはhard failの場合、draftは制限付きの修正cycleへ
+戻り、gateを通ったchapterだけがcanonへ記録されます。
+
+Quality AuditorとSyncが検証可能なhandoff recordを作ります。これはchatだけのtoolや
+自由なmodel呼び出しとの構造的な違いです。deterministic DAGがtask順序を守り、modelは
+gateを飛ばせず、次のchapterへ広がる前に問題を止めます。
+
+**ビジネス価値:** 品質基準、停止条件、復旧経路があり、editorial review、共同制作、
+連載catalogに対応できます。
+
+### 9. Local-first運用モデルのためのProduction-ready
+
+Liteはdemoではなく、1人のoperatorが実際のworkflowを運用するために設計されています。
+
+- `temp + fsync + rename`によるatomic write
+- sync/recoveryのためのdigest、optimistic version、transaction manifest
+- 同時書き込みを防ぐper-novel thread/file lock
+- persistent background jobs、status polling、startup recovery
+- 暗号化provider key、redacted error code、local backup boundary
+- backend、frontend、property-based testsをsourceとともに提供
+
+ここでいう「production-ready」は、安定したlocal authoringの範囲を指します。Multi-user、
+billing、public catalog、cloud deploymentはFull NovelKitまたは別途の実装範囲です。
+
+### 10. 一冊ではなくcontent catalogへ広げられる基盤
+
+File-first canon、genre routing、memory isolation、chapter pipelineによって、複数の
+novelへ同じ運用モデルを繰り返し適用できます。Editorialチームはstory bible、review
+record、handoff artifact、series状態を一つのモデルで管理できます。
+
+**ビジネス価値:** writing prototypeから、管理可能で引き継ぎ可能なcontent line-upへ
+拡張できます。
+
 ## Studioでできること
 
 - Premise、ジャンル、登場人物、目標章数からnovelを作成。
@@ -117,6 +189,24 @@ Author referenceは中立的な識別metadataに限定されます。Runtimeは�
 - Narrative graphで人物、場所、事件の関係を探索。
 - Language guardと機械的な文章の兆候を分析。
 - Steer、advanced controls、NovelCLIでpipelineの方向を調整。
+
+## パートナーシップとFull NovelKit
+
+NovelKit V2 Liteは評価、研究、workflow開発のためのlocal editionです。出版社、content
+studio、creator network、product teamがより完全な運用・ライセンス・catalog能力を必要
+とする場合は、[novelkit.cc](https://novelkit.cc/)でFull NovelKitの協業方法をご覧ください。
+
+協業はsampleから始められます：ジャンルbrief、目標生産量、権利モデル → sample chapter
++ story bible + pipeline log → 共同review → line-up拡張またはcustom deployment。大きな
+契約に進む前に、実際の成果物で品質と権利範囲を確認できます。
+
+- [Full NovelKitを見る](https://novelkit.cc/) — platformとproduction能力
+- [AI小説制作ソリューション](https://novelkit.cc/sang-tac-tieu-thuyet-ai) — serviceとcatalogの方向性
+- [パートナーシップを相談](https://novelkit.cc/#cta) — briefまたはsampleの依頼
+
+Lite repoは引き続き[LICENSE](LICENSE)に従います。商用化または変更・派生repositoryを
+作成するには明示的な許可が必要です。Full NovelKitの購入または協業は別個の製品・
+サービス契約です。
 
 ## 対象ユーザー
 

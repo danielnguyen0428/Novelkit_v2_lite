@@ -21,6 +21,14 @@ NovelKit V2 Lite는 하나의 이야기 아이디어를 구조화된 창작 워�
 > 사용자가 직접 선택하고 모델 비용도 provider에 직접 지불합니다. 상업적 사용과
 > 수정·파생 버전은 사전 서면 허가가 필요합니다.
 
+| 핵심 역량 | 증거 포인트 |
+| --- | --- |
+| 장르 설정 | 6개 genre canon pack + 명시적 hybrid routing |
+| 장기 memory | A–E 5개 layer · 8개 data category · 통제된 rotation |
+| Quality Gate | 85점 pass · 70점 soft-fail/revise · 승인 canon만 승격 |
+| 집필 경험 | 3년 실제 집필 · 실제 프로젝트 · 출간 도서 |
+| 운영 역량 | local-first single-operator를 위한 Production-ready |
+
 ## NovelKit이 필요한 이유
 
 LLM은 좋은 장면 하나를 만들 수 있지만, 장편 소설에는 좋은 prompt 하나보다 더
@@ -109,6 +117,72 @@ Author reference는 중립적인 식별 metadata일 뿐입니다. Runtime은 실
 **비즈니스 가치:** 장기 프로젝트나 provider 장애에서 state가 손상될 위험을
 낮춥니다.
 
+### 6. 실제 집필 경험이 반영된 장르 설정
+
+NovelKit은 선협(Xianxia), 현대 도시(Urban), 로맨스(Romance), SF, 타임 트래블,
+Meta Genre의 6가지 핵심 genre canon pack을 제공합니다. 장르 설정은 prompt 키워드만
+바꾸지 않습니다. 세계 규칙, 인물 상태, 플롯선, language guard, 전문 역할, review
+checklist까지 연결합니다. Hybrid genre도 primary genre, secondary genre, 혼합 비율을
+명시합니다.
+
+이 설정은 실제 소설 집필 업무를 바탕으로 합니다. 저자는 **3년의 집필 경험**과
+**실제 소설 프로젝트**, **출간된 도서**를 보유하고 있습니다. 그 경험을 DNA form,
+template, canon pack, 반복 가능한 check로 옮겼기 때문에 한 번의 chat 감각에 의존하지
+않습니다.
+
+**비즈니스 가치:** 장르 시스템으로 빠르게 시작하면서도 장기 연재에 필요한 연구 깊이와
+제작 규율을 유지합니다.
+
+### 7. 장기 memory는 메모장이 아니라 운영 시스템
+
+Memory는 novel마다 격리되고 구조화된 item으로 저장됩니다. `character_state`,
+`story_facts`, `world_rules`, `timeline`, `open_loops`, `reader_promises`,
+`relationships`, `minor_cast` 등 8개 category를 사용합니다.
+
+다섯 개 A–E layer가 canon, episode/context, summary, curated memory를 분리합니다.
+Active memory는 약 3,500단어로 제한되고 오래된 내용은 통제된 rotation/archive로
+이동합니다. Context engine은 derivative index나 cache보다 권위 있는 canon을 우선합니다.
+
+**비즈니스 가치:** 시리즈가 길어져도 context가 희석되거나 novel 간 데이터가 섞이지
+않습니다.
+
+### 8. Draft와 canon 사이를 지키는 엄격한 Quality Gate
+
+NovelKit은 model의 첫 output을 공식 chapter로 취급하지 않습니다. 모든 chapter는
+self-check, review, sync gate를 통과해야 합니다. 기준은 **85점 pass**, **70점
+soft-fail/revise**입니다. 기준 미달이나 hard fail이면 draft는 제한된 수정 cycle로
+돌아가며, gate를 통과한 chapter만 canon에 기록됩니다.
+
+Quality Auditor와 Sync는 확인 가능한 handoff record를 만듭니다. 이는 chat-only 또는
+자유 호출 tool과의 구조적 차이입니다. deterministic DAG가 task 순서를 지키고, model은
+gate를 건너뛸 수 없으며, 오류는 다음 chapter로 번지기 전에 차단됩니다.
+
+**비즈니스 가치:** 품질 기준, 중지 조건, 복구 경로가 있어 editorial review, 공동 제작,
+연재 catalog에 적합합니다.
+
+### 9. Local-first 운영 모델을 위한 Production-ready
+
+Lite는 demo가 아니라 한 명의 operator가 실제 workflow를 실행하도록 설계되었습니다.
+
+- `temp + fsync + rename` 원자적 쓰기
+- sync/recovery를 위한 digest, optimistic version, transaction manifest
+- 동시 쓰기를 막는 per-novel thread/file lock
+- persistent background jobs, status polling, startup recovery
+- 암호화 provider key, 비식별 error code, local backup 경계
+- backend, frontend, property-based tests를 source와 함께 제공
+
+여기서 “production-ready”는 안정적인 local authoring 범위의 의미입니다. Multi-user,
+billing, public catalog, cloud deployment는 Full NovelKit 또는 별도 구현 범위입니다.
+
+### 10. 한 권이 아닌 전체 catalog로 확장 가능한 기반
+
+File-first canon, genre routing, memory isolation, chapter pipeline을 통해 여러 novel에
+같은 운영 방식을 반복 적용할 수 있습니다. Editorial 팀은 story bible, review record,
+handoff artifact, series 상태를 한 모델 안에서 관리할 수 있습니다.
+
+**비즈니스 가치:** writing prototype에서 통제 가능하고 인수인계 가능한 content
+line-up으로 확장합니다.
+
 ## Studio에서 할 수 있는 일
 
 - Premise, 장르, 인물, 목표 챕터 수로 novel 생성.
@@ -120,6 +194,24 @@ Author reference는 중립적인 식별 metadata일 뿐입니다. Runtime은 실
 - Narrative graph에서 인물, 장소, 사건 관계 탐색.
 - Language guard와 기계적인 문장 신호 분석.
 - Steer, advanced controls, NovelCLI로 pipeline 방향 개입.
+
+## 파트너십 및 Full NovelKit
+
+NovelKit V2 Lite는 평가, 연구, workflow 개발을 위한 local edition입니다. 출판사, 콘텐츠
+studio, creator network, 제품 팀이 더 완전한 운영·라이선스·catalog 역량을 원한다면
+[novelkit.cc](https://novelkit.cc/)에서 Full NovelKit 협력 방식을 확인할 수 있습니다.
+
+협력은 sample로 시작할 수 있습니다: 장르 brief, 목표 생산량, 권리 모델 → sample chapter
++ story bible + pipeline log → 공동 review → line-up 확대 또는 맞춤 deployment. 큰 계약
+전에 실제 결과물로 품질과 권리 범위를 함께 확인할 수 있습니다.
+
+- [Full NovelKit 살펴보기](https://novelkit.cc/) — 플랫폼 및 production 역량
+- [AI 소설 제작 솔루션](https://novelkit.cc/sang-tac-tieu-thuyet-ai) — 서비스 및 catalog 방향
+- [파트너십 상담](https://novelkit.cc/#cta) — brief 또는 sample 요청
+
+Lite repo는 계속 [LICENSE](LICENSE)의 적용을 받습니다. 상업화하거나 수정·파생 repository
+버전을 만들려면 명시적 허가가 필요합니다. Full NovelKit 구매 또는 협력은 별도의 제품·
+서비스 계약입니다.
 
 ## 이런 사용자에게 적합합니다
 
