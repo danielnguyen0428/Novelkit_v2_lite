@@ -183,6 +183,16 @@ handoff artifact 与 series 状态。
 - 分析 language guard 与机器化文本信号。
 - 通过 steer、advanced controls 和 NovelCLI 干预 pipeline 方向。
 
+## Demo 界面
+
+Studio 中的两个代表性界面：
+
+<p align="center">
+  <img src="docs/screenshots/quick-setup-ai-story.png" alt="Quick Setup — AI 创建小说" width="49%" />
+  <img src="docs/screenshots/studio-project-dna-pipeline.png" alt="Studio — PROJECT_DNA 与写作 pipeline" width="49%" />
+</p>
+<p align="center"><em>用 Quick Setup 创建 PROJECT_DNA &nbsp;•&nbsp; 在 Studio 跟踪 canon 与写作 pipeline</em></p>
+
 ## 合作与 Full NovelKit
 
 NovelKit V2 Lite 是用于评估、研究和搭建 workflow 的本地版本。出版社、内容 studio、

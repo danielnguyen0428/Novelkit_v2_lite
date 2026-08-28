@@ -198,6 +198,16 @@ content line-up.
 - Analyze language guards and machine-like writing signals.
 - Steer pipeline direction through advanced controls and NovelCLI.
 
+## Demo screens
+
+Two representative Studio surfaces:
+
+<p align="center">
+  <img src="docs/screenshots/quick-setup-ai-story.png" alt="Quick Setup — AI story creation" width="49%" />
+  <img src="docs/screenshots/studio-project-dna-pipeline.png" alt="Studio — PROJECT_DNA and writing pipeline" width="49%" />
+</p>
+<p align="center"><em>Quick Setup for PROJECT_DNA &nbsp;•&nbsp; Studio for canon and writing-pipeline progress</em></p>
+
 ## Partnership and Full NovelKit
 
 NovelKit V2 Lite is the local edition for evaluation, research, and workflow

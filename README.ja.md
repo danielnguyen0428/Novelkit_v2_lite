@@ -190,6 +190,16 @@ record、handoff artifact、series状態を一つのモデルで管理できま�
 - Language guardと機械的な文章の兆候を分析。
 - Steer、advanced controls、NovelCLIでpipelineの方向を調整。
 
+## デモ画面
+
+Studioの代表的な2画面：
+
+<p align="center">
+  <img src="docs/screenshots/quick-setup-ai-story.png" alt="Quick Setup — AIストーリー作成" width="49%" />
+  <img src="docs/screenshots/studio-project-dna-pipeline.png" alt="Studio — PROJECT_DNAとwriting pipeline" width="49%" />
+</p>
+<p align="center"><em>Quick SetupでPROJECT_DNAを作成 &nbsp;•&nbsp; Studioでcanonとwriting pipelineの進捗を確認</em></p>
+
 ## パートナーシップとFull NovelKit
 
 NovelKit V2 Liteは評価、研究、workflow開発のためのlocal editionです。出版社、content

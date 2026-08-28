@@ -195,6 +195,16 @@ line-up으로 확장합니다.
 - Language guard와 기계적인 문장 신호 분석.
 - Steer, advanced controls, NovelCLI로 pipeline 방향 개입.
 
+## Demo 화면
+
+Studio의 대표 화면 두 가지:
+
+<p align="center">
+  <img src="docs/screenshots/quick-setup-ai-story.png" alt="Quick Setup — AI 스토리 생성" width="49%" />
+  <img src="docs/screenshots/studio-project-dna-pipeline.png" alt="Studio — PROJECT_DNA 및 writing pipeline" width="49%" />
+</p>
+<p align="center"><em>Quick Setup에서 PROJECT_DNA 생성 &nbsp;•&nbsp; Studio에서 canon과 writing pipeline 진행률 확인</em></p>
+
 ## 파트너십 및 Full NovelKit
 
 NovelKit V2 Lite는 평가, 연구, workflow 개발을 위한 local edition입니다. 출판사, 콘텐츠

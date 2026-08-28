@@ -198,6 +198,16 @@ có thể bàn giao và kiểm soát.
 - Phân tích language guard và dấu hiệu văn bản máy móc.
 - Can thiệp hướng đi của pipeline qua steer và NovelCLI.
 
+## Màn hình demo
+
+Hai màn hình tiêu biểu trong Studio:
+
+<p align="center">
+  <img src="docs/screenshots/quick-setup-ai-story.png" alt="Quick Setup — AI tự dựng truyện" width="49%" />
+  <img src="docs/screenshots/studio-project-dna-pipeline.png" alt="Studio — PROJECT_DNA và writing pipeline" width="49%" />
+</p>
+<p align="center"><em>Quick Setup để tạo PROJECT_DNA &nbsp;•&nbsp; Studio để theo dõi canon và writing pipeline</em></p>
+
 ## Hợp tác và bản Full NovelKit
 
 NovelKit V2 Lite là bản local để dùng thử, nghiên cứu và xây workflow riêng. Nếu
