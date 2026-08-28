@@ -9,6 +9,10 @@ Changelog này chỉ theo dõi sản phẩm Lite độc lập.
 - Công khai theo giấy phép source-available phi thương mại, không phái sinh.
 - Thêm provenance manifest, API endpoint và HTTP/frontend/package metadata;
   không thêm telemetry.
+- Bổ sung README English, Simplified Chinese, Korean và Japanese với language
+  switcher nhất quán.
+- Thêm Mermaid diagrams cho product loop, system context, run sequence,
+  long-form pipeline, job lifecycle, data authority, storage và knowledge graph.
 
 ## 2026-08-28 — Lite repository baseline
 

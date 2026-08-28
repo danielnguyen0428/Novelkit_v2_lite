@@ -1,5 +1,8 @@
 # NovelKit V2 Lite
 
+**Ngôn ngữ:** **Tiếng Việt** · [English](README.en.md) ·
+[简体中文](README.zh-CN.md) · [한국어](README.ko.md) · [日本語](README.ja.md)
+
 **Viết tiểu thuyết dài kỳ với AI mà không đánh mất canon hay quyền kiểm soát.**
 
 NovelKit V2 Lite biến một ý tưởng truyện thành quy trình sáng tác có cấu trúc:
@@ -50,8 +53,18 @@ khi chúng lan sang nhiều chương.
 
 Mỗi chương đi qua một chuỗi công việc rõ ràng:
 
-```text
-Project DNA → Worldbuilding → Outline → Draft → Review → Gate → Sync canon
+```mermaid
+flowchart LR
+    DNA["Project DNA"] --> World["Worldbuilding"]
+    World --> Outline["Chapter outline"]
+    Outline --> Draft["Draft"]
+    Draft --> Check["Self-check"]
+    Check --> Review["Quality review"]
+    Review --> Gate{"Gate đạt?"}
+    Gate -- Có --> Sync["Sync vào canon"]
+    Gate -- Chưa --> Revise["Sửa bản thảo"]
+    Revise --> Draft
+    Sync --> Next["Chương tiếp theo"]
 ```
 
 Pipeline theo dõi task, version, checkpoint và kết quả review. Người viết có thể
@@ -118,17 +131,20 @@ phải backend multi-user và không nên expose trực tiếp ra Internet.
 
 ## Kiến trúc trong 30 giây
 
-```text
-Browser
-  └─ React Studio
-       └─ typed API client
-            └─ FastAPI trên localhost
-                 ├─ NovelKitService
-                 ├─ persistent background jobs
-                 ├─ deterministic pipeline + creative tools
-                 ├─ OpenAI-compatible provider
-                 ├─ SQLite operational metadata
-                 └─ file-first novel workspaces
+```mermaid
+flowchart LR
+    Writer["Người viết"] --> Studio["React Studio"]
+
+    subgraph Local["Máy local"]
+        Studio --> API["FastAPI"]
+        API --> Jobs["Persistent jobs"]
+        Jobs --> Pipeline["Pipeline + creative tools"]
+        Pipeline --> DB[("SQLite metadata")]
+        Pipeline --> Files[("Novel workspaces")]
+    end
+
+    Pipeline -->|"HTTPS · prompt/context"| Provider["AI provider do bạn chọn"]
+    Provider -->|"model output"| Pipeline
 ```
 
 Frontend production và API chạy cùng origin trong một Uvicorn process. Bản Lite
@@ -219,6 +235,7 @@ npm run build --prefix webapp/frontend
 - [RUNBOOK.md](RUNBOOK.md) — cài đặt, vận hành, backup và xử lý sự cố.
 - [KNOWLEDGE_GRAPH.md](KNOWLEDGE_GRAPH.md) — mô hình tri thức và quyền sở hữu dữ liệu.
 - [KNOWLEDGE_GRAPH_DETAIL.md](KNOWLEDGE_GRAPH_DETAIL.md) — bản đồ module, API và artifact.
+- [TECHNICAL_DIAGRAMS.md](TECHNICAL_DIAGRAMS.md) — architecture, sequence, lifecycle và data graphs.
 - [CHANGELOG.md](CHANGELOG.md) — lịch sử thay đổi của bản Lite.
 
 ## Giấy phép và sử dụng thương mại

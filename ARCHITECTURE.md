@@ -4,6 +4,9 @@ Tài liệu này mô tả code đang chạy trong repo Lite. Mục tiêu kiến 
 pipeline sáng tác dài kỳ có kiểm soát, nhưng vận hành bằng một process local,
 một operator và dữ liệu file-first.
 
+Xem bộ sơ đồ system context, sequence, pipeline lifecycle, data authority và
+knowledge graph tại [TECHNICAL_DIAGRAMS.md](TECHNICAL_DIAGRAMS.md).
+
 ## 1. Ranh giới sản phẩm
 
 NovelKit V2 Lite có bốn ràng buộc nền:

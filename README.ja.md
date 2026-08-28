@@ -1,0 +1,259 @@
+# NovelKit V2 Lite
+
+**言語:** [Tiếng Việt](README.md) · [English](README.en.md) ·
+[简体中文](README.zh-CN.md) · [한국어](README.ko.md) · **日本語**
+
+**AIで長編・連載小説を書きながら、設定の一貫性と創作の主導権を守る。**
+
+NovelKit V2 Liteは、ひとつの物語アイデアを構造化された制作フローへ変換します。
+canonの構築、プロット設計、章ごとの執筆、品質review、整合性チェック、承認済みの
+変更をproject memoryへ同期するところまでを、ひとつのStudioで管理します。
+
+単に「続きを書く」だけのチャットボックスではありません。NovelKitはAIを、状態を
+確認しながら制御できるコンテンツpipelineとして編成します。章数、登場人物、事件の
+流れが増えても、物語の方向を決めるのは作者です。
+
+**一貫したcanon · 章単位のpipeline · ローカルデータ · モデルを自由に選択**
+
+物語を決めるのはあなたです。複雑な運用はNovelKitが支えます。
+
+> **個人、教育、研究、評価、非商用目的では無料で利用できます。** AI providerは
+> 利用者が選択し、モデル利用料もproviderへ直接支払います。商用利用、変更版、
+> 派生版には、事前の書面による許可が必要です。
+
+## NovelKitが必要な理由
+
+LLMは優れた一場面を書けますが、長編小説に必要なのは良いpromptひとつだけでは
+ありません。通常のチャットでは、作者がcontextを何度も説明し、canonを手作業で
+管理し、矛盾を探し、分散した資料を整理する必要があります。
+
+NovelKitは、それらをひとつのStudioに集約します。
+
+| 長編制作の課題 | NovelKit V2 Liteの対応 |
+| --- | --- |
+| 章を重ねるとモデルが細部を忘れる | canon、memory、summaries、knowledge graphを維持 |
+| 人物状態やtimelineがずれる | diagnostics、review gate、consistency checksを実行 |
+| Promptと企画資料が散在する | DNA、outline、worldbuilding、chapter、reviewをひとつのworkspaceへ集約 |
+| 次に何をすべきか分かりにくい | deterministic pipelineがready taskと章の状態を追跡 |
+| 特定のモデル事業者に依存する | 利用者が設定したOpenAI-compatible endpointを使用 |
+| 原稿がホスティングサービスに閉じ込められる | 運用データとnovel workspaceをローカルに保存 |
+
+## プロダクトの強み
+
+### 1. 作品が長くなっても物語の連続性を維持
+
+NovelKitは「物語の記憶」をモデルの短い会話windowから分離します。
+`PROJECT_DNA`、登場人物、世界ルール、timeline、outline、chapter summaries、
+curated memory、narrative graphを維持し、taskごとに必要なcontextを提供します。
+
+**ビジネス価値:** promptを繰り返し作り直す負担を減らし、設定のずれが後続の章へ
+広がる前に発見しやすくします。
+
+### 2. 一度きりの生成ではなく、管理できるpipelineで執筆
+
+各章は明確な工程を通ります。
+
+```mermaid
+flowchart LR
+    DNA["Project DNA"] --> World["世界観構築"]
+    World --> Outline["章のoutline"]
+    Outline --> Draft["初稿"]
+    Draft --> Check["Self-check"]
+    Check --> Review["品質review"]
+    Review --> Gate{"Gateを通過？"}
+    Gate -- はい --> Sync["canonへsync"]
+    Gate -- 未達 --> Revise["初稿を修正"]
+    Revise --> Draft
+    Sync --> Next["次の章"]
+```
+
+Pipelineはtask、version、checkpoint、review結果を追跡します。Provider呼び出しが
+失敗しても、実行全体を失わずに状態を確認し、方向を調整し、再開または復旧できます。
+
+**ビジネス価値:** AIを一回限りの文章生成器ではなく、観測可能な制作プロセスとして
+活用できます。
+
+### 3. データはローカルに、モデル選択は利用者に
+
+- Studioはデフォルトで`127.0.0.1`のみにbindします。
+- 原稿とcanonはローカルworkspaceに保存されます。
+- API keyはSQLiteへ保存する前に暗号化されます。
+- NovelKitにはtelemetryも、原稿を受け取るNovelKit serverもありません。
+- Inferenceに必要なpromptとcontextだけが、選択したproviderへ送信されます。
+- OpenAI-compatibleなbase URL、model ID、API keyに対応します。
+
+**ビジネス価値:** データの保存場所、利用モデル、inferenceコストを自分で管理できます。
+
+### 4. 長編・連載フィクション専用の設計
+
+NovelKitは、すべてのコンテンツへ同じ汎用workflowを当てはめません。Genre canon、
+hybrid genre、long-form compass、strand tracking、recall、language guard、
+narrative continuity gateを備えています。
+
+Author referenceは中立的な識別metadataに限定されます。Runtimeは実在する作家の
+リズム、語彙、構成、個人的な禁止ルールを模倣しません。
+
+**ビジネス価値:** 個人の文体を複製するツールにせず、プロジェクトとジャンルの制約を
+モデルへ伝えられます。
+
+### 5. 単純な執筆scriptより堅牢な運用
+
+- Background jobはdatabaseに保存され、UI reload後も確認できます。
+- 同時にひとつのrunだけが対象novelへ書き込めます。
+- File lockとoptimistic versionがstateの上書きを抑えます。
+- Service restart時にorphaned jobを整理します。
+- Reviewとsyncがdraftと承認済みcanonを分離します。
+
+**ビジネス価値:** 長期プロジェクトやprovider障害によるstate破損のリスクを抑えます。
+
+## Studioでできること
+
+- Premise、ジャンル、登場人物、目標章数からnovelを作成。
+- 短いbriefからAIで`PROJECT_DNA`を完成。
+- 章数を指定してpipelineを計画・実行。
+- Chapter、企画書、worldbuilding artifactsを閲覧。
+- Run status、usage metadata、復旧可能なエラーを確認。
+- DoctorとDiagnosticsで物語構造を点検。
+- Narrative graphで人物、場所、事件の関係を探索。
+- Language guardと機械的な文章の兆候を分析。
+- Steer、advanced controls、NovelCLIでpipelineの方向を調整。
+
+## 対象ユーザー
+
+- Web小説・連載小説の作者。
+- 多数の人物、プロット線、canon資料を管理するクリエイター。
+- 原稿全体をSaaSへ預けずにAIを活用したい作者。
+- 観察・検証できる創作pipelineを必要とするbuilderやresearcher。
+
+NovelKit V2 Liteは現在、**1台のコンピューター上で1人のoperator**が使う構成です。
+Multi-user backendではなく、Internetへ直接公開しないでください。
+
+## 30秒で分かるアーキテクチャ
+
+```mermaid
+flowchart LR
+    Writer["作者"] --> Studio["React Studio"]
+
+    subgraph Local["ローカルコンピューター"]
+        Studio --> API["FastAPI"]
+        API --> Jobs["Persistent jobs"]
+        Jobs --> Pipeline["Pipeline + creative tools"]
+        Pipeline --> DB[("SQLite metadata")]
+        Pipeline --> Files[("Novel workspaces")]
+    end
+
+    Pipeline -->|"HTTPS · prompt/context"| Provider["選択したAI provider"]
+    Provider -->|"model output"| Pipeline
+```
+
+Production frontendとAPIは、ひとつのUvicorn processから同一originで提供されます。
+LiteではRedis、Celery、PostgreSQL、独立したworker serverは不要です。
+
+## 数分で始める
+
+### 必要環境
+
+- Python 3.11以上。
+- Node.js 20.19+または22.12+。
+- npm。
+
+### インストールと起動
+
+```bash
+git clone https://github.com/danielnguyen0428/Novelkit_v2_lite.git
+cd Novelkit_v2_lite
+./setup.sh
+./run-local.sh
+```
+
+<http://127.0.0.1:8000/studio>を開きます。
+
+別のportを使う場合：
+
+```bash
+PORT=8080 ./run-local.sh
+```
+
+### AI providerを接続
+
+Studioで**Settings**を開き、次を入力します。
+
+- OpenAI-compatible base URL
+- model ID
+- API key
+
+NovelKitはtokenを販売せず、subscriptionも必須ではありません。Inferenceコストは
+選択したproviderとmodelによって決まります。
+
+## ローカルデータ
+
+| パス | 内容 |
+| --- | --- |
+| `.data/novelkit-lite.db` | Novel metadata、provider settings、run jobs、usage ledger |
+| `.secrets/master.key` | Provider API keyを復号するkey |
+| `storage/users/.../novels/<uuid>/` | Studioで作成したcanon、chapter、artifacts |
+| `workspaces/` | 旧CLI/runtimeパス向けのcompatibility root |
+
+これらのruntimeパスは`.gitignore`で除外されています。Backup時はdatabase、master
+key、`storage/`を同じsnapshotに保存してください。
+
+## Liteのプロダクト範囲
+
+NovelKit V2 Liteはローカルauthoringに集中しています。現在、以下は含みません。
+
+- ログイン、OAuth、アカウント管理
+- multi-userまたはmulti-tenant isolation
+- billing、credits、payment
+- public reader、catalog、publishing backend
+- cloud secret manager、worker cluster
+
+LANまたはInternet経由で利用する場合は、FastAPIの前段にTLSとauthentication
+proxyを配置してください。
+
+## 開発と検証
+
+Backend：
+
+```bash
+./.venv/bin/python -m pytest \
+  tests/test_lite_api.py \
+  tests/test_webapi.py \
+  tests/test_run_jobs.py -q
+```
+
+Frontend：
+
+```bash
+node --test webapp/frontend/tests/*.test.mjs
+npm run build --prefix webapp/frontend
+```
+
+## 技術ドキュメント
+
+- [ARCHITECTURE.md](ARCHITECTURE.md) — システム境界とデータフロー。
+- [RUNBOOK.md](RUNBOOK.md) — セットアップ、運用、backup、トラブル対応。
+- [KNOWLEDGE_GRAPH.md](KNOWLEDGE_GRAPH.md) — knowledge modelとデータ所有関係。
+- [KNOWLEDGE_GRAPH_DETAIL.md](KNOWLEDGE_GRAPH_DETAIL.md) — module、API、artifact一覧。
+- [TECHNICAL_DIAGRAMS.md](TECHNICAL_DIAGRAMS.md) — architecture、sequence、lifecycle、data graphs。
+- [CHANGELOG.md](CHANGELOG.md) — Lite固有の変更履歴。
+
+## ライセンスと商用利用
+
+NovelKit V2 Liteはopen-sourceではなく、**source-available**ライセンスで公開されます。
+
+- 個人、教育、研究、評価、非商用利用は無料
+- 許可のない変更、翻案、派生物の作成は禁止
+- 許可のない直接・間接の商用利用は禁止
+- 著作権表示とprovenance metadataの維持が必須
+
+法的に優先される全文は[LICENSE](LICENSE)を確認してください。商用権または変更版の
+開発許可については、**danielnguyen0428@gmail.com**へお問い合わせください。
+
+Canonical provenance ID：
+
+```text
+NOVELKIT-V2-LITE-DN0428-20260828-12A133B9E572
+```
+
+検証情報は[NOTICE](NOTICE)、[PROVENANCE.json](PROVENANCE.json)、
+`GET /api/provenance`で確認できます。この仕組みはユーザーデータを収集・送信しません。
