@@ -289,19 +289,6 @@ provider 和 model。
 这些 runtime 路径都已加入 `.gitignore`。备份时，请把 database、master key 和
 `storage/` 保存在同一个 snapshot 中。
 
-## Lite 的产品边界
-
-NovelKit V2 Lite 专注于本地创作，目前不包含：
-
-- 登录、OAuth 或账号管理；
-- multi-user 或 multi-tenant isolation；
-- billing、credits 或 payment；
-- public reader、catalog 或 publishing backend；
-- cloud secret manager 或 worker cluster。
-
-如果需要通过 LAN 或 Internet 使用，请在 FastAPI 前配置 TLS 和
-authentication proxy。
-
 ## 开发与验证
 
 Backend：

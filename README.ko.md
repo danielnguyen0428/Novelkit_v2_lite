@@ -304,19 +304,6 @@ NovelKit은 token을 판매하거나 subscription을 요구하지 않습니다. 
 이 runtime 경로는 `.gitignore`에 포함됩니다. Backup할 때 database, master key,
 `storage/`를 같은 snapshot에 보관하세요.
 
-## Lite 제품 범위
-
-NovelKit V2 Lite는 로컬 authoring에 집중합니다. 현재 다음 기능은 없습니다.
-
-- 로그인, OAuth, 계정 관리
-- multi-user 또는 multi-tenant isolation
-- billing, credits, payment
-- public reader, catalog, publishing backend
-- cloud secret manager 또는 worker cluster
-
-LAN 또는 Internet에서 사용해야 한다면 FastAPI 앞에 TLS와 authentication
-proxy를 구성하세요.
-
 ## 개발 및 검증
 
 Backend:

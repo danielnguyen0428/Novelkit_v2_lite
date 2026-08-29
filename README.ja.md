@@ -297,19 +297,6 @@ NovelKitはtokenを販売せず、subscriptionも必須ではありません。I
 これらのruntimeパスは`.gitignore`で除外されています。Backup時はdatabase、master
 key、`storage/`を同じsnapshotに保存してください。
 
-## Liteのプロダクト範囲
-
-NovelKit V2 Liteはローカルauthoringに集中しています。現在、以下は含みません。
-
-- ログイン、OAuth、アカウント管理
-- multi-userまたはmulti-tenant isolation
-- billing、credits、payment
-- public reader、catalog、publishing backend
-- cloud secret manager、worker cluster
-
-LANまたはInternet経由で利用する場合は、FastAPIの前段にTLSとauthentication
-proxyを配置してください。
-
 ## 開発と検証
 
 Backend：

@@ -308,19 +308,6 @@ provider và model bạn chọn.
 Các đường dẫn runtime đều nằm trong `.gitignore`. Khi backup, hãy giữ database,
 master key và `storage/` trong cùng một snapshot.
 
-## Phạm vi của bản Lite
-
-NovelKit V2 Lite tập trung vào authoring local. Sản phẩm hiện không có:
-
-- đăng nhập, OAuth hoặc quản trị tài khoản;
-- multi-user hoặc multi-tenant isolation;
-- billing, credit hoặc payment;
-- public reader, catalog hoặc publishing backend;
-- cloud secret manager hoặc worker cluster.
-
-Nếu cần dùng qua LAN hoặc Internet, hãy đặt TLS và authentication proxy phía
-trước FastAPI.
-
 ## Phát triển và kiểm thử
 
 Backend:

@@ -307,19 +307,6 @@ on the provider and model you choose.
 These runtime paths are excluded by `.gitignore`. Back up the database, master
 key, and `storage/` in the same snapshot.
 
-## Lite product boundary
-
-NovelKit V2 Lite focuses on local authoring. It currently has no:
-
-- login, OAuth, or account administration;
-- multi-user or multi-tenant isolation;
-- billing, credits, or payments;
-- public reader, catalog, or publishing backend;
-- cloud secret manager or worker cluster.
-
-If you need LAN or Internet access, place TLS and an authentication proxy in
-front of FastAPI.
-
 ## Development and verification
 
 Backend:
